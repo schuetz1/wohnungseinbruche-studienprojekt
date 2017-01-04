@@ -119,16 +119,22 @@ a:hover,a:focus{
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Lato', sans-serif;
     font-weight: 100;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 1.4;
     color: #29282b;
     letter-spacing: 2px;
 }
 h1{
     font-size: 34px;
+    padding-top: 30px;
 }
+
 h2{
-    font-size: 30px;
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: -28px;
+
 }
 h3{
     font-size: 24px;
@@ -818,4 +824,20 @@ footer p a,footer p a:hover,footer p a:focus {
 
 .headline{
     font-size: 150px;
+}
+
+.white{
+    color: white;
+}
+
+.headline_small{
+    font-size: 100px;
+}
+
+.blue{
+    color: #4282ea;
+}
+
+.yellow{
+    color: #efd229;
 }
