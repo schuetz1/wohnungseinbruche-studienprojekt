@@ -846,3 +846,23 @@ footer p a,footer p a:hover,footer p a:focus {
 .counter {
   font-size:150px;
 }
+
+/* country map ---------------------------------------------------------------- */
+#chartdiv {
+    width: 50%;
+    height: 500px;
+}
+
+#placeholder {
+    width: 49%;
+    height: 400px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: 3px solid #fff;
+    opacity: 0.9;
+}
+
+div .amcharts-chart-div a {
+    display: none !important;
+}
