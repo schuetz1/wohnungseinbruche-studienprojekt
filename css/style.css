@@ -867,3 +867,10 @@ footer p a,footer p a:hover,footer p a:focus {
 div .amcharts-chart-div a {
     display: none !important;
 }
+
+#schaden {
+    height: 400px;
+    width: auto;
+    margin: auto;
+    margin-top: 40px;
+}
