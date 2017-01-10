@@ -854,6 +854,7 @@ footer p a,footer p a:hover,footer p a:focus {
 }
 
 #placeholder {
+    margin-top: 50px;
     width: 49%;
     height: 400px;
     position: absolute;

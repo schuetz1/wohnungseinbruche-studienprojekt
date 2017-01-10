@@ -505,7 +505,7 @@ var map = AmCharts.makeChart( "chartdiv", {
     "type": "map",
     "titles": [
         {
-            "text": "Entwicklung der Anzahl der Tatverdächtigen nach Nationalität",
+            "text": "Aus welchen Ländern stammen die Tatverdächtigen?",
             "size": 15,
         }
     ],
