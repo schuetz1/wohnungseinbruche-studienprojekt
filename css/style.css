@@ -850,11 +850,11 @@ footer p a,footer p a:hover,footer p a:focus {
 /* country map ---------------------------------------------------------------- */
 #chartdiv {
     width: 50%;
-    height: 500px;
+    height: 400px;
 }
 
 #placeholder {
-    margin-top: 50px;
+    margin-top: 200px;
     width: 49%;
     height: 400px;
     position: absolute;
@@ -867,10 +867,12 @@ footer p a,footer p a:hover,footer p a:focus {
 div .amcharts-chart-div a {
     display: none !important;
 }
+/* Schaden ---------------------------------------------------------------- */
 
 #schaden {
     height: 400px;
     width: auto;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 60px;
 }
+

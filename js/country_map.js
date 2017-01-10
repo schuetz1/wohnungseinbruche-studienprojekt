@@ -503,12 +503,6 @@ var dataSets = [
 
 var map = AmCharts.makeChart( "chartdiv", {
     "type": "map",
-    "titles": [
-        {
-            "text": "Aus welchen Ländern stammen die Tatverdächtigen?",
-            "size": 15,
-        }
-    ],
     "panEventsEnabled": true,
     "theme": "light",
     "colorSteps": 5,
