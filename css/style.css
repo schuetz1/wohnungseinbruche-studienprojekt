@@ -877,6 +877,7 @@ div .amcharts-chart-div a {
     margin-right: 0px ;
 }
 
+/* Slider Schaden ---------------------------------------------------------------- */
 .carousel-control.left, .carousel-control.right {
     background: none;
     border: none;
@@ -906,3 +907,5 @@ a.right.carousel-control{
     width: 50px;
     margin-right: 60px;
 }
+
+/* Fallzahlen ---------------------------------------------------------------- */

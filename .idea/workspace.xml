@@ -25,9 +25,25 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.75">
-              <caret line="217" column="49" selection-start-line="217" selection-start-column="49" selection-end-line="217" selection-end-column="49" />
+            <state vertical-scroll-proportion="-14.25">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fallzahlen.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/fallzahlen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5693069">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#47#0" expanded="false" />
+                <marker date="1484162465000" expanded="true" signature="1520:1535" placeholder="..." />
+                <marker date="1484162465000" expanded="true" signature="1580:1595" placeholder="..." />
+                <marker date="1484162465000" expanded="true" signature="2003:2018" placeholder="..." />
+                <marker date="1484162465000" expanded="true" signature="2063:2078" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9484536">
-              <caret line="906" column="16" selection-start-line="906" selection-start-column="16" selection-end-line="906" selection-end-column="16" />
+            <state vertical-scroll-proportion="-20.5">
+              <caret line="911" column="0" selection-start-line="911" selection-start-column="0" selection-end-line="911" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,8 +107,9 @@
       <list>
         <option value="$PROJECT_DIR$/js/country_map.js" />
         <option value="$PROJECT_DIR$/js/schaden.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/fallzahlen.js" />
       </list>
     </option>
   </component>
@@ -313,6 +330,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.5">
+          <caret line="911" column="0" selection-start-line="911" selection-start-column="0" selection-end-line="911" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/schaden.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -335,17 +360,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.75">
-          <caret line="217" column="49" selection-start-line="217" selection-start-column="49" selection-end-line="217" selection-end-column="49" />
+        <state vertical-scroll-proportion="-14.25">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/fallzahlen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9484536">
-          <caret line="906" column="16" selection-start-line="906" selection-start-column="16" selection-end-line="906" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="0.5693069">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+            <marker date="1484162465000" expanded="true" signature="1520:1535" placeholder="..." />
+            <marker date="1484162465000" expanded="true" signature="1580:1595" placeholder="..." />
+            <marker date="1484162465000" expanded="true" signature="2003:2018" placeholder="..." />
+            <marker date="1484162465000" expanded="true" signature="2063:2078" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
