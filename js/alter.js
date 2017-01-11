@@ -3,14 +3,16 @@ $(document).ready(function () {
     Highcharts.chart('alter', {
 
         chart: {
-            renderTo: 'histogram',
-            defaultSeriesType: 'bar',
+            type: 'column',
             backgroundColor:'rgba(255, 255, 255, 0.1)'
         },
 
         title: {
             text: 'Sortiert nach Männliche und Weibliche'
         },
+
+        //16 Zahlen
+
 
         yAxis: {
             allowDecimals: false,
