@@ -3,6 +3,7 @@ $(document).ready(function () {
     Highcharts.chart('alter', {
 
         chart: {
+            backgroundColor: null,
             type: 'column'
         },
 
