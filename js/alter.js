@@ -1,3 +1,4 @@
+var chart=null;
 $(document).ready(function () {
     Highcharts.chart('alter', {
 
