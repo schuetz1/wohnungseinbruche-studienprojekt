@@ -208,7 +208,8 @@ var chart = AmCharts.makeChart("schaden", {
     "categoryAxis": {
         "gridPosition": "start",
         "position": "left",
-        "gridThickness": 1
+        "gridThickness": 1,
+        "labelRotation": 45
     },"valueAxes": [ {
         "axisAlpha": 0,
         "position": "left"

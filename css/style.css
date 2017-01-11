@@ -897,3 +897,12 @@ span.glyphicon.glyphicon-chevron-right{
     margin-right: -100px;
 }
 
+a.left.carousel-control {
+    width: 50px;
+    margin-left: 60px;
+}
+
+a.right.carousel-control{
+    width: 50px;
+    margin-right: 60px;
+}
