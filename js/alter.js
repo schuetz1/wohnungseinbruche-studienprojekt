@@ -10,9 +10,6 @@ $(document).ready(function () {
             text: 'Sortiert nach Männliche und Weibliche'
         },
 
-        //16 Zahlen
-
-
         yAxis: {
             allowDecimals: false,
             min: 0,
