@@ -32,7 +32,6 @@
     <script type="text/javascript" src="js/jquery.spincrement.js"></script>
 
 
-
     <!-- Style Switch -->
     <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen"/>
 
@@ -80,71 +79,68 @@
     <div class="container">
         <div class="row relative">
             <div class="text-center">
+                <script>
+                    (function ($) {
+                        $.fn.countTo = function (options) {
+                            // merge the default plugin settings with the custom options
+                            options = $.extend({}, $.fn.countTo.defaults, options || {});
 
-<script>
-    (function($) {
-        $.fn.countTo = function(options) {
-            // merge the default plugin settings with the custom options
-            options = $.extend({}, $.fn.countTo.defaults, options || {});
+                            // how many times to update the value, and how much to increment the value on each update
+                            var loops = Math.ceil(options.speed / options.refreshInterval),
+                                    increment = (options.to - options.from) / loops;
 
-            // how many times to update the value, and how much to increment the value on each update
-            var loops = Math.ceil(options.speed / options.refreshInterval),
-                    increment = (options.to - options.from) / loops;
+                            return $(this).each(function () {
+                                var _this = this,
+                                        loopCount = 0,
+                                        value = options.from,
+                                        interval = setInterval(updateTimer, options.refreshInterval);
 
-            return $(this).each(function() {
-                var _this = this,
-                        loopCount = 0,
-                        value = options.from,
-                        interval = setInterval(updateTimer, options.refreshInterval);
+                                function updateTimer() {
+                                    value += increment;
+                                    loopCount++;
+                                    $(_this).html(value.toFixed(options.decimals));
 
-                function updateTimer() {
-                    value += increment;
-                    loopCount++;
-                    $(_this).html(value.toFixed(options.decimals));
+                                    if (typeof(options.onUpdate) == 'function') {
+                                        options.onUpdate.call(_this, value);
+                                    }
 
-                    if (typeof(options.onUpdate) == 'function') {
-                        options.onUpdate.call(_this, value);
-                    }
+                                    if (loopCount >= loops) {
+                                        clearInterval(interval);
+                                        value = options.to;
 
-                    if (loopCount >= loops) {
-                        clearInterval(interval);
-                        value = options.to;
+                                        if (typeof(options.onComplete) == 'function') {
+                                            options.onComplete.call(_this, value);
+                                        }
+                                    }
+                                }
+                            });
+                        };
 
-                        if (typeof(options.onComplete) == 'function') {
-                            options.onComplete.call(_this, value);
-                        }
-                    }
-                }
-            });
-        };
+                        $.fn.countTo.defaults = {
+                            from: 0,  // the number the element should start at
+                            to: 100,  // the number the element should end at
+                            speed: 100,  // how long it should take to count between the target numbers
+                            refreshInterval: 100,  // how often the element should be updated
+                            decimals: 0,  // the number of decimal places to show
+                            onUpdate: null,  // callback method for every time the element is updated,
+                            onComplete: null,  // callback method for when the element finishes updating
+                        };
+                    })(jQuery);
 
-        $.fn.countTo.defaults = {
-            from: 0,  // the number the element should start at
-            to: 100,  // the number the element should end at
-            speed: 100,  // how long it should take to count between the target numbers
-            refreshInterval: 100,  // how often the element should be updated
-            decimals: 0,  // the number of decimal places to show
-            onUpdate: null,  // callback method for every time the element is updated,
-            onComplete: null,  // callback method for when the element finishes updating
-        };
-    })(jQuery);
+                    jQuery(function ($) {
+                        $('.counter').countTo({
+                            from: 50,
+                            to: 5791,
+                            speed: 1500,
+                            refreshInterval: 50,
+                            onComplete: function (value) {
+                                console.debug(this);
+                            }
+                        });
+                    });
 
-    jQuery(function($) {
-        $('.counter').countTo({
-            from: 50,
-            to: 62362,
-            speed: 1500,
-            refreshInterval: 50,
-            onComplete: function(value) {
-                console.debug(this);
-            }
-        });
-    });
-
-</script>
-<br>                <span class="counter"></span>
-
-
+                </script>
+                <br> <span class="counter"></span>
 
 
                 <h3>Wohnungseinbrüche im Jahr 2015<br> in Nordrhein-Westfalen</h3>
@@ -158,32 +154,32 @@
     <div class="container">
         <div class="row relative">
             <div class="text-center">
-            <!--Content hier-->
+                <!--Content hier-->
                 <h1 class="white headline_small">Tatzeiten</h1>
                 <div class="monate">
                     <h4 class="white">Anzahl der Wonungseinbrüche in den verschiedenen Monaten</h4>
-                    
+
 
                     <h2 class="yellow">4372</h2>
                     <h5 class="yellow"><b>Ein leichter Anstieg?</b></h5>
                     <h6 class="white"> Viele Häuser stehen in <br>den Sommerferien leer!</h6>
                     <img src="images/monate_kurve_juni.svg" width="850px" style="padding: 20px; margin-top:-110px;">
                     <br>
-<div style="width: 1000px; padding-left:150px;">
-                    <div class="col-lg-1"><span class="white">JAN</span></div>
-                    <div class="col-lg-1"><span class="white">FEB</span></div>
-                    <div class="col-lg-1"><span class="white">MAR</span></div>
-                    <div class="col-lg-1"><span class="white">APR</span></div>
-                    <div class="col-lg-1"><span class="white">MAI</span></div>
-                    <div class="col-lg-1"><span class="yellow"><b>JUN</b></span></div>
-                    <div class="col-lg-1"><span class="white">JUL</span></div>
-                    <div class="col-lg-1"><span class="white">AUG</span></div>
-                    <div class="col-lg-1"><span class="white">SEP</span></div>
-                    <div class="col-lg-1"><span class="white">OKT</span></div>
-                    <div class="col-lg-1"><span class="white">NOV</span></div>
-                    <div class="col-lg-1"><span class="white">DEZ</span></div>
+                    <div style="width: 1000px; padding-left:150px;">
+                        <div class="col-lg-1"><span class="white">JAN</span></div>
+                        <div class="col-lg-1"><span class="white">FEB</span></div>
+                        <div class="col-lg-1"><span class="white">MAR</span></div>
+                        <div class="col-lg-1"><span class="white">APR</span></div>
+                        <div class="col-lg-1"><span class="white">MAI</span></div>
+                        <div class="col-lg-1"><span class="yellow"><b>JUN</b></span></div>
+                        <div class="col-lg-1"><span class="white">JUL</span></div>
+                        <div class="col-lg-1"><span class="white">AUG</span></div>
+                        <div class="col-lg-1"><span class="white">SEP</span></div>
+                        <div class="col-lg-1"><span class="white">OKT</span></div>
+                        <div class="col-lg-1"><span class="white">NOV</span></div>
+                        <div class="col-lg-1"><span class="white">DEZ</span></div>
 
-</div>
+                    </div>
 
                 </div>
 
@@ -200,22 +196,23 @@
             <div class="text-center">
 
                 <h1>Aus welchen Ländern stammen die Tatverdächtigen?</h1>
-                <h4>Die inaktive Karte zeigt aus welchen Ländern die Tatverdächtigen stammen. Durch das Auswählen eines Landes sehen Sie die Entwicklung über die Jahre.</h4>
+                <h4>Die inaktive Karte zeigt aus welchen Ländern die Tatverdächtigen stammen. Durch das Auswählen eines
+                    Landes sehen Sie die Entwicklung über die Jahre.</h4>
                 <div id="chartdiv"></div>
                 <div id="info">
                     <div id="select_year">
-                        <input type="button" value="2011" onclick="setDataset(0);" />
-                        <input type="button" value="2012" onclick="setDataset(1);" />
-                        <input type="button" value="2013" onclick="setDataset(2);" />
-                        <input type="button" value="2014" onclick="setDataset(3);" />
-                        <input type="button" value="2015" onclick="setDataset(4);" /></div>
+                        <input type="button" value="2011" onclick="setDataset(0);"/>
+                        <input type="button" value="2012" onclick="setDataset(1);"/>
+                        <input type="button" value="2013" onclick="setDataset(2);"/>
+                        <input type="button" value="2014" onclick="setDataset(3);"/>
+                        <input type="button" value="2015" onclick="setDataset(4);"/></div>
                     <div id="placeholder"></div>
 
-                <!--Content hier-->
-            </div>
+                    <!--Content hier-->
+                </div>
 
+            </div>
         </div>
-    </div>
 </section>
 
 <!--Schadensumme -->
@@ -225,22 +222,23 @@
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                <div class="text-center">
-                    <h1>Anzahl der Einbruchsschäden</h1>
-                    <h4>Wählen Sie in der Legende die gewünschten Jahreszahlen aus um zu erfahren wie hoch die Einbruchsschäden in dem entsprechenden Jahr sind.</h4>
-                    <div id="schaden"></div>
-                </div><!-- col-md-6 end -->
-                        </div>
+                        <div class="text-center">
+                            <h1>Anzahl der Einbruchsschäden</h1>
+                            <h4>Wählen Sie in der Legende die gewünschten Jahreszahlen aus um zu erfahren wie hoch die
+                                Einbruchsschäden in dem entsprechenden Jahr sind.</h4>
+                            <div id="schaden"></div>
+                        </div><!-- col-md-6 end -->
+                    </div>
                     <div class="item">
                         <div class="text-center">
-                        <h1> Anzahl der Fälle </h1>
+                            <h1> Anzahl der Fälle </h1>
                             <h4>Wählen Sie blablabla</h4>
                             <div id="fallzahlen"></div>
                             <div id="fallzahlen_text"></div>
                         </div>
                     </div>
 
-                    </div>
+                </div>
 
                 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -251,9 +249,20 @@
                     <span class="sr-only">Next</span>
                 </a>
 
-                </div>
+            </div>
         </div><!-- row end -->
     </div><!-- container end -->
+</section><!-- intro end -->
+
+<section id="section-five"> 
+    <div class="container"> 
+        <div class="row relative"> 
+            <div class="text-center"> 
+                <h1>Durchschnittliche Alter der Täter</h1>
+                <div id="alter" style="width:100%; height:450px;"></div> 
+            </div><!-- col-md-6 end --> 
+        </div><!-- row end --> 
+    </div><!-- container end --> 
 </section><!-- intro end -->
 
 <!--Footer -->
@@ -286,5 +295,6 @@
 <script src="js/country_map.js"></script>
 <script src="js/schaden.js"></script>
 <script src="js/fallzahlen.js"></script>
+<script src="js/alter.js"></script>
 </body>
 </html>
