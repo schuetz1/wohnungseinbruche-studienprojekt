@@ -850,11 +850,17 @@ footer p a,footer p a:hover,footer p a:focus {
 /* country map ---------------------------------------------------------------- */
 #chartdiv {
     width: 50%;
-    height: 400px;
+    height: 635px;
+    margin-left: -55px;
+    margin-top: -200px;
+}
+
+div.amChartsLegend.amcharts-legend-div {
+    margin-top: 120px;
 }
 
 #placeholder {
-    margin-top: 200px;
+    margin-top: 150px;
     width: 49%;
     height: 400px;
     position: absolute;
@@ -866,6 +872,11 @@ footer p a,footer p a:hover,footer p a:focus {
 
 div .amcharts-chart-div a {
     display: none !important;
+
+}
+
+#select_year {
+    float: left;
 }
 /* Schaden ---------------------------------------------------------------- */
 
