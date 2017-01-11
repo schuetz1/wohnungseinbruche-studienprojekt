@@ -884,8 +884,13 @@ div .amcharts-chart-div a {
     height: 400px;
     width: 1100px;
     margin: auto;
-    margin-top: 60px;
     margin-right: 0px ;
+}
+div.amcharts-main-div {
+    position: absolute !important;
+}
+div.amChartsLegend.amcharts-legend-div {
+    margin-top: -50px;
 }
 
 /* Slider Schaden ---------------------------------------------------------------- */
