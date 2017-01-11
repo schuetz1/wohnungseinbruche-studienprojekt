@@ -1,10 +1,8 @@
-var chart=null;
 $(document).ready(function () {
     Highcharts.chart('alter', {
 
         chart: {
-            type: 'column',
-            backgroundColor:'rgba(255, 255, 255, 0.1)'
+            type: 'column'
         },
 
         title: {
