@@ -215,11 +215,32 @@
 <section id="section-three">
     <div class="container">
         <div class="row relative">
-            <div class="text-center">
-                <h1>Anzahl der Einbruchsschäden</h1>
-                <h4>Wählen Sie in der Legende die gewünschten Jahreszahlen aus um zu erfahren wie hoch die Einbruchsschäden in dem entsprechenden Jahr sind.</h4>
-                <div id="schaden"></div>
-            </div><!-- col-md-6 end -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                <div class="text-center">
+                    <h1>Anzahl der Einbruchsschäden</h1>
+                    <h4>Wählen Sie in der Legende die gewünschten Jahreszahlen aus um zu erfahren wie hoch die Einbruchsschäden in dem entsprechenden Jahr sind.</h4>
+                    <div id="schaden"></div>
+                </div><!-- col-md-6 end -->
+                        </div>
+                    <div class="item">
+                        <h1> Anzahl der Fälle </h1>
+                        <div></div>
+                    </div>
+
+                    </div>
+
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+                </div>
         </div><!-- row end -->
     </div><!-- container end -->
 </section><!-- intro end -->

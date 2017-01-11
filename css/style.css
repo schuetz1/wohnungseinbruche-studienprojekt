@@ -871,8 +871,29 @@ div .amcharts-chart-div a {
 
 #schaden {
     height: 400px;
-    width: auto;
+    width: 1100px;
     margin: auto;
     margin-top: 60px;
+    margin-right: 0px ;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background: none;
+    border: none;
+}
+.carousel-control.left {
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+.carousel-control.right {
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+span.glyphicon.glyphicon-chevron-left {
+    margin-left: -100px;
+}
+span.glyphicon.glyphicon-chevron-right{
+    margin-right: -100px;
 }
 
