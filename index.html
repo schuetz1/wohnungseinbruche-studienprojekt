@@ -258,12 +258,68 @@
         <div class="row relative"> 
             <div class="text-center"> 
                 <h1>Durchschnittliche Alter der Täter</h1>
-                <div id="alter" style="width:100%; height:400px;"></div> 
+                <div id="alter" style="width:100%; height:400px;"></div>
+                 
             </div><!-- col-md-6 end --> 
         </div><!-- row end --> 
     </div><!-- container end --> 
 </section><!-- intro end -->
 
+<section id="section-one">
+    <div class="container">
+        <div class="row relative">
+            <div class="text-center">
+                <h1>Täter nach Altersgruppen</h1>
+                <div class="row" id="altersgruppe-abstand">
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default">2011</button>
+                        <button type="button" class="btn btn-default">2012</button>
+                        <button type="button" class="btn btn-default">2013</button>
+                        <button type="button" class="btn btn-default">2014</button>
+                        <button type="button" class="btn btn-default">2015</button>
+                    </div>
+                </div>
+
+                <div class="row" >
+                    <div class="col-md-3">
+                        <a href="#" data-toggle="tooltip" data-placement="right" title="92 Täter">
+                        <img id="jurassicbt"
+                             src="img/erwachsener.png"
+                             class="img-responsive logo"
+                             style="width: 115px;"/></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" data-toggle="tooltip" data-placement="right" title="708 Täter">
+                            <img id="jurassicbt"
+                                 src="img/erwachsener.png"
+                                 class="img-responsive logo"
+                                 style="width: 115px;"/></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" data-toggle="tooltip" data-placement="right" title="787 Täter">
+                            <img id="jurassicbt"
+                                 src="img/erwachsener.png"
+                                 class="img-responsive logo"
+                                 style="width: 115px;"/></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" data-toggle="tooltip" data-placement="right" title="4204 Täter">
+                            <img id="jurassicbt"
+                                 src="img/erwachsener.png"
+                                 class="img-responsive logo"
+                                 style="width: 115px;"/></a>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <!--Footer -->
@@ -297,5 +353,11 @@
 <script src="js/schaden.js"></script>
 <script src="js/fallzahlen.js"></script>
 <script src="js/alter.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
 </body>
 </html>
