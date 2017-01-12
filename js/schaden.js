@@ -4,6 +4,7 @@
 var chart = AmCharts.makeChart("schaden", {
     "type": "serial",
     "theme": "light",
+    "top":0,
     "sortColumns": true,
     "legend": {
         "horizontalGap": 10,

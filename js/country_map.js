@@ -527,34 +527,34 @@ var map = AmCharts.makeChart( "chartdiv", {
         "balloonText": "[[title]]"
     },
 
-    "legend": {
-        "marginRight": 27,
-        "marginLeft": 27,
-        "equalWidths": true,
-        "backgroundAlpha": 0.9,
-        "backgroundColor": "#FFFFFF",
-        "borderColor": "#ffffff",
-        "borderAlpha": 1,
-        "top": 450,
-        "left": 0,
-        "horizontalGap": 50,
-        "data": [ {
-            "title": "0-50",
-            "color": "#CAF28D"
-        },{
-            "title": "51-100",
-            "color": "#e5fcc2"
-        }, {
-            "title": "101-300",
-            "color": "#9de0ad"
-        }, {
-            "title": "301-600",
-            "color": "#45ada8"
-        }, {
-            "title": "600+",
-            "color": "#547980"
-        } ]
-    },
+    //"legend": {
+    //    "marginRight": 27,
+    //    "marginLeft": 27,
+    //    "equalWidths": true,
+    //    "backgroundAlpha": 0.9,
+    //    "backgroundColor": "#FFFFFF",
+    //    "borderColor": "#ffffff",
+    //    "borderAlpha": 1,
+    //    "top": 50,
+    //    "left": 0,
+    //    "horizontalGap": 50,
+    //    "data": [ {
+    //        "title": "0-50",
+    //        "color": "#CAF28D"
+    //    },{
+    //        "title": "51-100",
+    //        "color": "#e5fcc2"
+    //    }, {
+    //        "title": "101-300",
+    //        "color": "#9de0ad"
+    //    }, {
+    //        "title": "301-600",
+    //        "color": "#45ada8"
+    //    }, {
+    //        "title": "600+",
+    //        "color": "#547980"
+    //    } ]
+    //},
 
 } );
 
