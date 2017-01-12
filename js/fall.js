@@ -4,6 +4,7 @@
 $(function() {
     Highcharts.chart('fallzahlen', {
         chart: {
+            backgroundColor: null,
             zoomType: 'xy'
         },
         title: {
