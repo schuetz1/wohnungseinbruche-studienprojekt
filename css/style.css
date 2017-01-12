@@ -870,6 +870,9 @@ footer p a,footer p a:hover,footer p a:focus {
     margin-top: -162px;
 }
 
+.text {
+    float: right;
+}
 #placeholder {
     margin-top: 150px;
     width: 49%;
@@ -897,11 +900,10 @@ div .amcharts-chart-div a {
     margin: auto;
     margin-right: 0px ;
 }
-div.amcharts-main-div {
-    position: absolute !important;
+/* Schaden ---------------------------------------------------------------- */
+#zahlen {
+    background-color: #3c763d;
 }
-
-
 
 /* Slider Schaden ---------------------------------------------------------------- */
 .carousel-control.left, .carousel-control.right {

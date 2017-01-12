@@ -3,7 +3,7 @@
  */
 var chart;
 
-chart = AmCharts.makeChart( "fallzahlen", {
+chart = AmCharts.makeChart( "zahlen", {
     "type": "serial",
     "addClassNames": true,
     "theme": "light",
