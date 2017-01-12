@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="tag:adobe.com,2012-03:edge:oam:compid:EDGE-53668602" name="monate" version="1">
+
+  <description type="text/html"><![CDATA[Widget Exported from Adobe Edge]]></description>
+  <category name="Adobe Edge Animation"/>
+
+  <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+
+  <icon src="images/icon.png" width="618" height="400" />
+
+  <require type="other" src="monate.html" />
+  <require type="other" src="images/144.SVG" />
+  <require type="other" src="images/1442.svg" />
+  <require type="other" src="images/april.svg" />
+  <require type="other" src="images/august.svg" />
+  <require type="other" src="images/dezember.svg" />
+  <require type="other" src="images/di.svg" />
+  <require type="other" src="images/di157.svg" />
+  <require type="other" src="images/di16.svg" />
+  <require type="other" src="images/do.svg" />
+  <require type="other" src="images/do178.svg" />
+  <require type="other" src="images/dots.svg" />
+  <require type="other" src="images/februar.svg" />
+  <require type="other" src="images/fr.svg" />
+  <require type="other" src="images/fr184.svg" />
+  <require type="other" src="images/januar.svg" />
+  <require type="other" src="images/juli.svg" />
+  <require type="other" src="images/juni.svg" />
+  <require type="other" src="images/kurve.svg" />
+  <require type="other" src="images/MAI.svg" />
+  <require type="other" src="images/märz.svg" />
+  <require type="other" src="images/mi.svg" />
+  <require type="other" src="images/mi167.svg" />
+  <require type="other" src="images/mo.svg" />
+  <require type="other" src="images/november.svg" />
+  <require type="other" src="images/oktober.svg" />
+  <require type="other" src="images/Pasted.svg" />
+  <require type="other" src="images/Pasted2.svg" />
+  <require type="other" src="images/Pasted3.svg" />
+  <require type="other" src="images/Pasted4.svg" />
+  <require type="other" src="images/Pasted5.svg" />
+  <require type="other" src="images/Pasted6.svg" />
+  <require type="other" src="images/Pasted7.svg" />
+  <require type="other" src="images/sa.svg" />
+  <require type="other" src="images/sa192.svg" />
+  <require type="other" src="images/september.svg" />
+  <require type="other" src="images/so.svg" />
+  <require type="other" src="images/yellow.svg" />
+
+  <require type="javascript" src="monate_edge.js" />
+  <require type="javascript" src="monate_edgeActions.js" />
+  <require type="javascript" src="monate_edgePreload.js" />
+  <require type="javascript" src="edge_includes/edge.4.0.1.min.js" />
+  <require type="javascript" src="edge_includes/jquery-2.0.3.min.js" />
+
+  <require type="image" src="images/icon.png" />
+  <require type="image" src="images/Poster.png" />
+  <require type="image" src="images/Poster2.png" />
+
+  <require type="folder" src="edge_includes" />
+  <require type="folder" src="images" />
+
+
+  <content><![CDATA[
+    <div class="EDGE-53668602"></div>
+  ]]></content>
+   
+  <properties name="Properties">
+    <property name="default-width" defaultValue="618" hidden="true"/>
+    <property name="default-height" defaultValue="400" hidden="true"/>
+    <property name="resizable" defaultValue="false" hidden="true"/>				
+		<property name="centering" defaultValue="none" hidden="true"/>				
+		<property name="scaling" defaultValue="none" hidden="true"/>
+    <property name="html-page" defaultValue="monate.html" hidden="true"/>
+  </properties>
+
+</widget>
