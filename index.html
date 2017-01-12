@@ -44,7 +44,7 @@
     <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
     <script src="https://www.amcharts.com/lib/3/serial.js"></script>
 
-    <script src="https://www.gstatic.com/charts/loader.js"></script>
+
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 <!-- Header -->
@@ -196,25 +196,25 @@
                 <h1>Aus welchen Ländern stammen die Tatverdächtigen?</h1>
                 <h4>Die inaktive Karte zeigt aus welchen Ländern die Tatverdächtigen stammen. Durch das Auswählen eines
                     Landes sehen Sie die Entwicklung über die Jahre.</h4>
-                <div id="chartdiv"></div>
-                <div id="placeholder"></div>
-                <!--<div id="info">-->
+                <div id="chartdiv">
+                    <div id="legenddiv"></div>
+                </div>
 
-                    <!--<div class="row" id="select_year">-->
-                        <!--<div class="btn-group" role="group" aria-label="...">-->
-                        <!--<button type="button" class="btn btn-default" onclick="setDataset(0);"> 2011</button>-->
-                        <!--<button type="button" class="btn btn-default" onclick="setDataset(1);"> 2012 </button>-->
-                        <!--<button type="button" class="btn btn-default" onclick="setDataset(2);"> 2013</button>-->
-                        <!--<button type="button" class="btn btn-default" onclick="setDataset(3);"> 2014 </button>-->
-                        <!--<button type="button" class="btn btn-default" onclick="setDataset(4);"> 2015 </button>-->
-                            <!--</div>-->
-                    <!--</div>-->
+                <div id="placeholder">
+                    <div id="info">
 
+                        <div class="row" id="select_year">
+                            <div class="btn-group" role="group" aria-label="...">
+                                <button type="button" class="btn btn-default" onclick="setDataset(0);"> 2011</button>
+                                <button type="button" class="btn btn-default" onclick="setDataset(1);"> 2012 </button>
+                                <button type="button" class="btn btn-default" onclick="setDataset(2);"> 2013</button>
+                                <button type="button" class="btn btn-default" onclick="setDataset(3);"> 2014 </button>
+                                <button type="button" class="btn btn-default" onclick="setDataset(4);"> 2015 </button>
+                            </div>
+                        </div>
 
-
-                    <!--Content hier-->
-                <!--</div>-->
-
+                    </div>
+                </div>
             </div>
         </div>
 </section>
@@ -238,7 +238,6 @@
                             <h1> Anzahl der Fälle </h1>
                             <h4>Wählen Sie blablabla</h4>
                             <div id="fallzahlen"></div>
-                            <div id="fallzahlen_text"></div>
                         </div>
                     </div>
 
@@ -257,6 +256,9 @@
         </div><!-- row end -->
     </div><!-- container end -->
 </section><!-- intro end -->
+
+
+
 
 <section id="section-five"> 
     <div class="container"> 
@@ -361,7 +363,7 @@
 <script src="js/einbrueche.js"></script>
 <script src="js/country_map.js"></script>
 <script src="js/schaden.js"></script>
-<script src="js/fallzahlen.js"></script>
+<script src="js/fall.js"></script>
 <script src="js/alter.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
