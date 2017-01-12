@@ -865,9 +865,9 @@ footer p a,footer p a:hover,footer p a:focus {
 /* country map ---------------------------------------------------------------- */
 #chartdiv {
     width: 50%;
-    height: 635px;
+    height: 632px;
     margin-left: -55px;
-    margin-top: -160px;
+    margin-top: -162px;
 }
 
 #placeholder {
