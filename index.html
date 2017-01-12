@@ -45,9 +45,6 @@
     <script src="https://www.amcharts.com/lib/3/serial.js"></script>
 
     <script src="https://www.gstatic.com/charts/loader.js"></script>
-    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
-    <script src="https://www.amcharts.com/lib/3/serial.js"></script>
-    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 <!-- Header -->
@@ -199,12 +196,18 @@
                     Landes sehen Sie die Entwicklung über die Jahre.</h4>
                 <div id="chartdiv"></div>
                 <div id="info">
-                    <div id="select_year">
-                        <input type="button" value="2011" onclick="setDataset(0);"/>
-                        <input type="button" value="2012" onclick="setDataset(1);"/>
-                        <input type="button" value="2013" onclick="setDataset(2);"/>
-                        <input type="button" value="2014" onclick="setDataset(3);"/>
-                        <input type="button" value="2015" onclick="setDataset(4);"/></div>
+
+
+                    <div class="row" id="select_year">
+                        <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default" onclick="setDataset(0);"> 2011</button>
+                        <button type="button" class="btn btn-default" onclick="setDataset(1);"> 2012 </button>
+                        <button type="button" class="btn btn-default" onclick="setDataset(2);"> 2013</button>
+                        <button type="button" class="btn btn-default" onclick="setDataset(3);"> 2014 </button>
+                        <button type="button" class="btn btn-default" onclick="setDataset(4);"> 2015 </button>
+                            </div>
+                    </div>
+
                     <div id="placeholder"></div>
 
                     <!--Content hier-->

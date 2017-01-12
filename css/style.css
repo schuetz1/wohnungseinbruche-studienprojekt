@@ -904,9 +904,7 @@ div .amcharts-chart-div a {
 div.amcharts-main-div {
     position: absolute !important;
 }
-div.amChartsLegend.amcharts-legend-div {
-    margin-top: -50px;
-}
+
 
 /* Slider Schaden ---------------------------------------------------------------- */
 .carousel-control.left, .carousel-control.right {
