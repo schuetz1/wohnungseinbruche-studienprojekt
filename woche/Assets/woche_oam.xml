@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="tag:adobe.com,2012-03:edge:oam:compid:EDGE-29225239" name="woche" version="1">
+
+  <description type="text/html"><![CDATA[Widget Exported from Adobe Edge]]></description>
+  <category name="Adobe Edge Animation"/>
+
+  <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+
+  <icon src="images/Poster.png" width="1000" height="380" />
+
+  <require type="other" src="woche.html" />
+  <require type="other" src="images/dienstag.svg" />
+  <require type="other" src="images/donnerstag.svg" />
+  <require type="other" src="images/Freitag.svg" />
+  <require type="other" src="images/Freitag2.svg" />
+  <require type="other" src="images/mittwoch.svg" />
+  <require type="other" src="images/moon_black.svg" />
+  <require type="other" src="images/moon_blue.svg" />
+  <require type="other" src="images/moon_t.svg" />
+  <require type="other" src="images/moon_tuerkis.svg" />
+  <require type="other" src="images/moon_yellow.svg" />
+  <require type="other" src="images/nacht.svg" />
+  <require type="other" src="images/nacht_black.svg" />
+  <require type="other" src="images/nachteinbrueche.svg" />
+  <require type="other" src="images/NACHTKURVE.svg" />
+  <require type="other" src="images/nachts.svg" />
+  <require type="other" src="images/night.svg" />
+  <require type="other" src="images/Pasted.svg" />
+  <require type="other" src="images/Pasted2.svg" />
+  <require type="other" src="images/sonntag.svg" />
+  <require type="other" src="images/sun_black.svg" />
+  <require type="other" src="images/sun_black2.svg" />
+  <require type="other" src="images/sun_black3.svg" />
+  <require type="other" src="images/sun_yellow.svg" />
+  <require type="other" src="images/tag.svg" />
+  <require type="other" src="images/tageseibrueche.svg" />
+
+  <require type="javascript" src="woche_edge.js" />
+  <require type="javascript" src="woche_edgeActions.js" />
+  <require type="javascript" src="woche_edgePreload.js" />
+  <require type="javascript" src="edge_includes/edge.4.0.1.min.js" />
+  <require type="javascript" src="edge_includes/jquery-2.0.3.min.js" />
+
+  <require type="image" src="images/Poster.png" />
+
+  <require type="folder" src="edge_includes" />
+  <require type="folder" src="images" />
+
+
+  <content><![CDATA[
+    <div class="EDGE-29225239"></div>
+  ]]></content>
+   
+  <properties name="Properties">
+    <property name="default-width" defaultValue="1000" hidden="true"/>
+    <property name="default-height" defaultValue="380" hidden="true"/>
+    <property name="resizable" defaultValue="false" hidden="true"/>				
+		<property name="centering" defaultValue="none" hidden="true"/>				
+		<property name="scaling" defaultValue="none" hidden="true"/>
+    <property name="html-page" defaultValue="woche.html" hidden="true"/>
+  </properties>
+
+</widget>
