@@ -792,7 +792,7 @@ footer p a,footer p a:hover,footer p a:focus {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background-image: url(../img/dieb_blue.jpg);
+    background-image: url(../img/dieb_verlauf.jpg);
     background-size: auto 830px;
 
 }
@@ -920,9 +920,9 @@ div.amcharts-main-div {
     float: right;
 }
 #placeholder {
-    margin-top: 150px;
-    width: 49%;
-    height: 400px;
+    margin-top: 52px;
+    width: 90%;
+    height: 50px;
     position: absolute;
     right: 5px;
     top: 5px;
@@ -1217,7 +1217,6 @@ a.right.carousel-control{
     margin-top: -179px;
 }
 
-.hidden {
-    opacity: 0;
-
+.right{
+    float: right;
 }

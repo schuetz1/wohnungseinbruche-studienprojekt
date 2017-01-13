@@ -126,8 +126,8 @@
 
                     jQuery(function ($) {
                         $('.counter').countTo({
-                            from: 50,
-                            to: 5791,
+                            from: 0,
+                            to: 62362,
                             speed: 1500,
                             refreshInterval: 50,
                             onComplete: function (value) {
@@ -154,7 +154,7 @@
                 <!--Content hier-->
                 <h1>Wohnungseinbrüche pro Jahr</h1>
                 <div class="jahre">
-                    <h4>Entwicklung von Wohnungseinbrüchen der Jahre 2006-2015</h4>
+                    <h4>NRW 2006-2015</h4>
 
                     <div id="einbrueche" style="width: 900px;margin-right: 150px"></div>
 
@@ -177,7 +177,7 @@
                     <div class="item active">
                         <div class="text-center">
                             <h1 class="white">Tatzeiten</h1>
-                            <h4 class="white">Anzahl der Wohnungseinbrüche in den verschiedenen Monaten</h4>
+                            <h4 class="white">Anzahl der Wohnungseinbrüche in Monaten</h4>
                             <object id="EdgeID" type="text/html" width="638" height="420" data-dw-widget="Edge" data="monate/Assets/monate.html">
                             </object>
                         </div><!-- col-md-6 end -->
@@ -186,7 +186,7 @@
                         <div class="text-center">
                             <h1 class="white">Tatzeiten</h1>
 
-                            <h4 class="white">Anzahl der Wohnungseinbrüche an den verschiedenen Wochentagen</h4>
+                            <h4 class="white">Anzahl der Wohnungseinbrüche nach Wochentagen</h4>
                             <object id="EdgeID" type="text/html" width="1020" height="400" data-dw-widget="Edge" data="woche/Assets/woche.html">
                             </object>
                         </div>
@@ -214,10 +214,10 @@
 <section id="section-two">
     <div class="container">
         <div class="row relative">
-            <div class="text-center">
-                <h1>Aus welchen Ländern stammen die Tatverdächtigen?</h1>
-                <h4>Die inaktive Karte zeigt aus welchen Ländern die Tatverdächtigen stammen. Durch das Auswählen eines
-                    Landes sehen Sie die Entwicklung über die Jahre.</h4>
+            <div class="col-md-6 right">
+                <h1>Aus welchen Ländern stammen die Täter?</h1>
+                <h4>Durch Auswählen der Jahre sehen Sie die Entwicklung der Länder. Durch Auswählen eines Landes sehen sie spezifische Entwicklung</h4>
+                </div>
                 <div id="chartdiv">
                     <div id="legenddiv"></div>
                 </div>
@@ -246,7 +246,7 @@
         <div class="row relative">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" role="listbox">
-                    <div class="item ">
+                    <div class="item active">
                         <div class="text-center">
                             <h1 class="white">Anzahl der Einbruchsfälle</h1>
                             <h4 class="white">Wählen Sie in der Legende die gewünschten Jahreszahlen aus um zu erfahren wie hoch die
@@ -254,7 +254,7 @@
                             <div id="schaden"></div>
                         </div><!-- col-md-6 end -->
                     </div>
-                    <div class="item active">
+                    <div class="item ">
                         <div class="text-center">
                             <h1 class="white"> Gesamtzahl der Fälle und des Schadens </h1>
                             <h4 class="white">Für weitere Details können Sie über einen Balken fahren</h4>
