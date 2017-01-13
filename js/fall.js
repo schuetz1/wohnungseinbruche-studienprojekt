@@ -8,7 +8,7 @@ $(function() {
             zoomType: 'xy'
         },
         title: {
-            text: 'Anzahl der Einbrüche Vs. Höhe der Schadenssumme'
+            text: ''
         },
         xAxis: [{
             categories: ['2006', '2007', '2008', '2009', '2010', '2011',
@@ -48,13 +48,13 @@ $(function() {
             shared: true
         },
         legend: {
-            layout: 'vertical',
+            layout: 'horizontal',
             align: 'left',
-            x: 120,
-            verticalAlign: 'top',
-            y: 100,
+            x: 480,
+            verticalAlign: 'bottom',
+            y: 0,
             floating: false,
-            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || ''
         },
         series: [{
             name: 'Fallzahlen',

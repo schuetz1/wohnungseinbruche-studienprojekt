@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01296fc7-19a4-4de7-bde2-6a9015c45d8a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/fallzahlen.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/fall.js" afterPath="$PROJECT_DIR$/js/fall.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/schaden.js" afterPath="$PROJECT_DIR$/js/schaden.js" />
     </list>
     <ignored path="webdesign3.iws" />
@@ -24,21 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="231" column="44" lean-forward="false" selection-start-line="231" selection-start-column="44" selection-end-line="231" selection-end-column="44" />
+            <state relative-caret-position="210">
+              <caret line="242" column="26" lean-forward="true" selection-start-line="242" selection-start-column="26" selection-end-line="242" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schaden.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="schaden.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/schaden.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="95" column="26" lean-forward="false" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+            <state relative-caret-position="176">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -47,19 +50,34 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="760" column="7" lean-forward="true" selection-start-line="760" selection-start-column="7" selection-end-line="760" selection-end-column="7" />
+            <state relative-caret-position="502">
+              <caret line="948" column="24" lean-forward="true" selection-start-line="948" selection-start-column="24" selection-end-line="948" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
+      <file leaf-file-name="fall.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="136" column="3" lean-forward="true" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
+            <state relative-caret-position="154">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="highcharts.src.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/highcharts.src.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1920">
+              <caret line="2148" column="32" lean-forward="false" selection-start-line="2148" selection-start-column="32" selection-end-line="2148" selection-end-column="32" />
+              <folding>
+                <marker date="1484307873097" expanded="true" signature="158417:158433" ph="..." />
+                <marker date="1484307873097" expanded="true" signature="158502:158519" ph="..." />
+                <marker date="1484307873097" expanded="true" signature="729496:729515" ph="..." />
+                <marker date="1484307873097" expanded="true" signature="729544:729561" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,10 +109,14 @@
       <find>duration</find>
       <find>carousel</find>
       <find>interval</find>
-      <find>schaden</find>
       <find>section-th</find>
       <find>borderWidthborderWidth</find>
       <find>borderWidth</find>
+      <find>schaden</find>
+      <find>color</find>
+      <find>colors</find>
+      <find>anzahl</find>
+      <find>getOptions</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\webdesign3\js</dir>
@@ -108,16 +130,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/js/fallzahlen.js" />
-        <option value="$PROJECT_DIR$/js/highcharts.src.js" />
         <option value="$PROJECT_DIR$/js/alter.js" />
         <option value="$PROJECT_DIR$/js/country_map.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/js/einbrueche.js" />
-        <option value="$PROJECT_DIR$/js/fall.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/schaden.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/highcharts.src.js" />
+        <option value="$PROJECT_DIR$/js/fall.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -270,7 +292,7 @@
       <workItem from="1484260920267" duration="1212000" />
       <workItem from="1484269043005" duration="1021000" />
       <workItem from="1484297973221" duration="1580000" />
-      <workItem from="1484299929159" duration="5220000" />
+      <workItem from="1484299929159" duration="7449000" />
     </task>
     <task id="LOCAL-00001" summary="css für section-zero angepasst">
       <created>1484261110736</created>
@@ -307,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484305657739</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Jahre bei Schaden initiell ausgeblendet">
+      <created>1484306046010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1484306046010</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25015000" />
+    <option name="totallyTimeSpent" value="27244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -377,7 +406,8 @@
     <MESSAGE value="gitignore angepasst" />
     <MESSAGE value="gitignore test" />
     <MESSAGE value="Farbanpassungen Schadenschart" />
-    <option name="LAST_COMMIT_MESSAGE" value="Farbanpassungen Schadenschart" />
+    <MESSAGE value="Jahre bei Schaden initiell ausgeblendet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jahre bei Schaden initiell ausgeblendet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -417,13 +447,10 @@
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/css/style.css" />
     <entry file="file://$PROJECT_DIR$/js/country_map.js" />
-    <entry file="file://$PROJECT_DIR$/js/highcharts.src.js" />
     <entry file="file://$PROJECT_DIR$/js/alter.js" />
     <entry file="file://$PROJECT_DIR$/js/country_map.js" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/js/fallzahlen.js" />
     <entry file="file://$PROJECT_DIR$/js/highcharts.js" />
-    <entry file="file://$PROJECT_DIR$/js/fall.js" />
     <entry file="file://$PROJECT_DIR$/css/jssocials.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -438,7 +465,7 @@
         <state relative-caret-position="-3498">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -448,7 +475,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -457,30 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="5" column="1337" lean-forward="false" selection-start-line="5" selection-start-column="1329" selection-end-line="5" selection-end-column="1337" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="760" column="7" lean-forward="true" selection-start-line="760" selection-start-column="7" selection-end-line="760" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="231" column="44" lean-forward="false" selection-start-line="231" selection-start-column="44" selection-end-line="231" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="136" column="3" lean-forward="true" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -497,10 +500,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/fallzahlen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="948" column="24" lean-forward="true" selection-start-line="948" selection-start-column="24" selection-end-line="948" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="136" column="3" lean-forward="true" selection-start-line="136" selection-start-column="3" selection-end-line="136" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/highcharts.src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="2148" column="32" lean-forward="false" selection-start-line="2148" selection-start-column="32" selection-end-line="2148" selection-end-column="32" />
+          <folding>
+            <marker date="1484307873097" expanded="true" signature="158417:158433" ph="..." />
+            <marker date="1484307873097" expanded="true" signature="158502:158519" ph="..." />
+            <marker date="1484307873097" expanded="true" signature="729496:729515" ph="..." />
+            <marker date="1484307873097" expanded="true" signature="729544:729561" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/schaden.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="95" column="26" lean-forward="false" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        <state relative-caret-position="176">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="242" column="26" lean-forward="true" selection-start-line="242" selection-start-column="26" selection-end-line="242" selection-end-column="26" />
           <folding />
         </state>
       </provider>

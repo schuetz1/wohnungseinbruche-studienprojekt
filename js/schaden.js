@@ -27,7 +27,10 @@ $(function () {
             min: 0,
             title: {
                 text: 'Anzahl der Fälle',
-                align: 'high'
+                align: 'middle',
+                style: {
+                    color: '#fff'
+                }
             },
             labels: {
                 overflow: 'justify',
@@ -48,16 +51,15 @@ $(function () {
             }
         },
         legend: {
-            layout: 'vertical',
-            align: 'right',
-            verticalAlign: 'top',
-            x: -40,
-            y: 80,
-            floating: true,
+            layout: 'horizontal',
+            verticalAlign: 'bottom',
+            x: 30,
+            y: 0,
+            floating: false,
             borderWidth: 1,
             backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
-            shadow: true,
-            floating:false
+            shadow: false,
+
         },
         credits: {
             enabled: false
