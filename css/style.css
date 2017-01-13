@@ -956,10 +956,42 @@ a.right.carousel-control{
     margin-right: 60px;
 }
 
-#altersgruppe-abstand{
+#altersgruppe-abstand {
     margin-top: 20px;
-    margin-bottom: 53px;
+    margin-bottom: 22px;
 }
-#altersgruppen-div{
-    display:inline-block;
+
+#altersgruppen-div {
+    display: inline-block;
+}
+
+.col-md-3 {
+    width: 20%;
+}
+.altersgruppe{
+    margin-left: 220px;
+}
+
+.kind{
+    margin-top: 154px;
+}
+
+.jugendliche{
+    margin-top: 87px;
+}
+
+.heranwachsende{
+    margin-top: 55px;
+}
+
+.tooltip-inner {
+    width: 120px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.gesamttaeter{
+    margin-right: 200px;
+    color: white;
+    font-size: 20px;
 }
