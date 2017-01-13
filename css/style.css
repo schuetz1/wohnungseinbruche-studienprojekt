@@ -843,7 +843,13 @@ footer p a,footer p a:hover,footer p a:focus {
     overflow: hidden;
     background-color: #666666;
 }
-
+#section-seven {
+    height: 638px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #666666;
+}
 .headline{
     font-size: 150px;
 }
