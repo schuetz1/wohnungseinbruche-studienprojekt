@@ -139,6 +139,7 @@ h2{
 h3{
     font-size: 24px;
     margin-top: -35px;
+    color: #fff;
 }
 h4{
     font-size: 16px;
@@ -314,7 +315,7 @@ h6{
     outline: none;
 }
 .navbar-nav li.active a,.navbar-nav li a:hover {
-    color:#29282b;
+    color:#4aa6c0;
 }
 .navbar-toggle{
     padding: 5px 10px;
@@ -787,12 +788,13 @@ footer p a,footer p a:hover,footer p a:focus {
 /* sections ---------------------------------------------------------------- */
 
 #facts{
-    height: 630px;
+    height: 830px;
     position: relative;
     z-index: 1;
     overflow: hidden;
     background-image: url(../img/dieb_blue.jpg);
-    background-size: auto 630px;
+    background-size: auto 830px;
+
 }
 
 #section-zero{
@@ -891,6 +893,7 @@ footer p a,footer p a:hover,footer p a:focus {
 
 .counter {
   font-size:150px;
+    color: #FFFFFF;
 }
 
 /* Einbrueche ---------------------------------------------------------------- */
@@ -1207,4 +1210,9 @@ a.right.carousel-control{
     -o-transform: rotate3d(0,1,0,-180deg);
     -ms-transform: rotate3d(0,1,0,-180deg);
     transform: rotate3d(0,1,0,-180deg);
+
+}
+
+.headline{
+    margin-top: -179px;
 }
