@@ -9,10 +9,11 @@ var chart = AmCharts.makeChart("einbrueche", {
     "sortColumns": true,
     "legend": {
         "horizontalGap": 10,
-        "maxColumns": 1,
-        "position": "right",
+        "maxColumns": 3,
+        "position": "bottom",
         "useGraphSettings": true,
-        "markerSize": 10
+        "markerSize": 10,
+        "align": "center"
     },
     "dataProvider": [{
         "value": "2006",
@@ -76,7 +77,9 @@ var chart = AmCharts.makeChart("einbrueche", {
         "lineAlpha": 0.3,
         "title": "Einbruchsfälle",
         "type": "column",
-        "valueField": "Einbruchsfälle"
+        "valueField": "Einbruchsfälle",
+        "fixedColumnWidth": 40
+
     }, {
         "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
         "fillAlphas": 0.8,
@@ -85,20 +88,23 @@ var chart = AmCharts.makeChart("einbrueche", {
         "type": "column",
         "clustered": false,
         "columnWidht": 0.5,
-        "valueField": "Versuchte Einbrüche"
+        "valueField": "Versuchte Einbrüche",
+        "fixedColumnWidth": 40
+
     }, {
         "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
         "fillAlphas": 0.8,
         "lineAlpha": 0.3,
         "title": "Aufklärungsquote",
         "bullet": "round",
-        "bulletBorderAlpha": 1,
-        "bulletColor": "#FFFFFF",
+        "bulletBorderAlpha": 0,
+        "bulletColor": "#000",
         "useLineColorForBulletBorder": true,
         "fillAlphas": 0,
         "lineThickness": 2,
+        "lineColor": "#000",
         "lineAlpha": 1,
-        "bulletSize": 7,
+        "bulletSize": 8,
         "valueField": "Aufklärungsquote"
     }],
     "categoryField": "value",
