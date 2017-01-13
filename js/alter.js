@@ -6,7 +6,7 @@ $(document).ready(function () {
         },
 
         title: {
-            text: 'Sortiert nach Männliche und Weibliche'
+            text: 'Sortiert nach männlichen und weiblichen Tätern'
         },
 
         //16 Zahlen

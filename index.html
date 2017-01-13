@@ -27,9 +27,7 @@
     <link href="css/style.css" rel="stylesheet">
 
 
-    <script src="js/modernizr.custom.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="js/jquery.spincrement.js"></script>
+
 
     <!-- Style Switch -->
     <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen"/>
@@ -174,7 +172,7 @@
                 <!--Content hier-->
                 <h1 class="white headline_small">Tatzeiten</h1>
                 <div class="monate">
-                    <h4 class="white">Anzahl der Wonungseinbrüche in den verschiedenen Monaten</h4>
+                    <h4 class="white">Anzahl der Wohnungseinbrüche in den verschiedenen Monaten</h4>
 
 
                     <object id="EdgeID" type="text/html" width="638" height="420" data-dw-widget="Edge" data="monate/Assets/monate.html">
@@ -196,7 +194,7 @@
                 <!--Content hier-->
                 <h1 class="white headline_small">Tageszeiten/Wochentage</h1>
                 <div class="monate">
-                    <h4 class="white">Anzahl der Wonungseinbrüche an den verschiedenen Wochentagen</h4>
+                    <h4 class="white">Anzahl der Wohnungseinbrüche an den verschiedenen Wochentagen</h4>
 
 
 
@@ -213,7 +211,6 @@
     <div class="container">
         <div class="row relative">
             <div class="text-center">
-
                 <h1>Aus welchen Ländern stammen die Tatverdächtigen?</h1>
                 <h4>Die inaktive Karte zeigt aus welchen Ländern die Tatverdächtigen stammen. Durch das Auswählen eines
                     Landes sehen Sie die Entwicklung über die Jahre.</h4>
@@ -223,7 +220,6 @@
 
                 <div id="placeholder">
                     <div id="info">
-
                         <div class="row" id="select_year">
                             <div class="btn-group" role="group" aria-label="...">
                                 <button type="button" class="btn btn-default" onclick="setDataset(0);"> 2011</button>
@@ -282,7 +278,7 @@
     <div class="container"> 
         <div class="row relative"> 
             <div class="text-center"> 
-                <h1>Durchschnittliche Alter der Täter</h1>
+                <h1>Durchschnittliches Alter der Täter</h1>
                 <div id="alter" style="width:100%; height:400px;"></div>
                  
             </div><!-- col-md-6 end --> 
@@ -535,7 +531,61 @@
         <div class="row relative">
             <div class="text-center">
                 <h1>Fakten zu Tätern</h1>
-                    <img src="img/fakten-zu-taeter.png" width="900">
+                    <ul class="ch-grid">
+                        <li>
+                            <div class="ch-item ch-img-1">
+                                <div class="ch-info-wrap">
+                                    <div class="ch-info">
+                                        <div class="ch-info-front ch-img-1"></div>
+                                        <div class="ch-info-back">
+                                            <h3>10</h3>
+                                            <p>Täter nutzen Schusswaffen</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ch-item ch-img-2">
+                                <div class="ch-info-wrap">
+                                    <div class="ch-info">
+                                        <div class="ch-info-front ch-img-2"></div>
+                                        <div class="ch-info-back">
+                                            <h3>1503</h3>
+                                            <p>Täter waren unter Drogeneinfluss</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ch-item ch-img-3">
+                                <div class="ch-info-wrap">
+                                    <!--<h3>4604</h3>-->
+                                    <div class="ch-info">
+                                        <div class="ch-info-front ch-img-3"></div>
+                                        <div class="ch-info-back">
+                                            <h3>4604</h3>
+                                            <p>Täter handelten alleine</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="ch-item ch-img-4">
+                                <div class="ch-info-wrap">
+                                    <div class="ch-info">
+                                        <div class="ch-info-front ch-img-4"></div>
+                                        <div class="ch-info-back">
+                                            <h3>7636</h3>
+                                            <p>Täter waren bereits Aktenkundig</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -579,6 +629,9 @@
 <script src="js/fall.js"></script>
 <script src="js/alter.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.spincrement.js"></script>
+<script src="js/modernizr.custom.79639.js"></script>
 <script>
     $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip();
