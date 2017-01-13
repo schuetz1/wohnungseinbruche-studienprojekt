@@ -791,7 +791,8 @@ footer p a,footer p a:hover,footer p a:focus {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background-color: #666666;
+    background-image: url(../img/dieb_blue.jpg);
+    background-size: auto 630px;
 }
 
 #section-zero{
