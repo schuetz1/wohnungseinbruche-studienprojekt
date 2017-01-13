@@ -1216,3 +1216,8 @@ a.right.carousel-control{
 .headline{
     margin-top: -179px;
 }
+
+.hidden {
+    opacity: 0;
+
+}
