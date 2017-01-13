@@ -5,15 +5,22 @@ $(function () {
     Highcharts.chart('schaden', {
         chart: {
             type: 'column',
-            backgroundColor: null,
+            backgroundColor: 'transparent',
         },
         title: {
-            text: 'Höhe der Schäden'
+            text: ''
+
         },
         xAxis: {
             categories: ['0-15€', '15-50€', '50-250€', '250€-500€', '500-2500€', '2500€-5000€', '5000-25000€','25000-50000€','50000€+'],
             title: {
                 text: null
+            },
+            labels: {
+                overflow: 'justify',
+                style: {
+                    color: '#fff'
+                }
             }
         },
         yAxis: {
@@ -23,17 +30,21 @@ $(function () {
                 align: 'high'
             },
             labels: {
-                overflow: 'justify'
+                overflow: 'justify',
+                style: {
+                    color: '#fff'
+                }
             }
         },
         tooltip: {
             valueSuffix: ' Fälle'
         },
         plotOptions: {
-            bar: {
+            column: {
                 dataLabels: {
-                    enabled: true
-                }
+                    enabled: false
+                },
+                borderWidth: 0,
             }
         },
         legend: {

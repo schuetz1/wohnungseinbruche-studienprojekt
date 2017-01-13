@@ -56,7 +56,7 @@ jQuery(document).ready(function ($) {
             elementsHorizontalSpacing: 180,
             elementsVerticalSpacing: 50,
             verticalAdjustment: 0,
-            animationTime: 0.5,
+            animationTime: 0,
             circleLeftPositionCorrection: 50,
             circleTopPositionCorrection: 20,
             circleLineWidth: 1,
@@ -65,7 +65,6 @@ jQuery(document).ready(function ($) {
             nextPrevMarginTop: 25,
             bottomNavMarginBottom: -50
         });
-
 
     });
 
@@ -132,5 +131,7 @@ $(document).on('submit', '#contactForm', function (e) {
 });
 
 
-
-
+// Carousel Delay
+$('.carousel').carousel({
+    interval:false
+});
