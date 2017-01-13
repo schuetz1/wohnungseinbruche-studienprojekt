@@ -45,7 +45,8 @@ $(function () {
             floating: true,
             borderWidth: 1,
             backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
-            shadow: true
+            shadow: true,
+            floating:false
         },
         credits: {
             enabled: false

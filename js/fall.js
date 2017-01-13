@@ -53,7 +53,7 @@ $(function() {
             x: 120,
             verticalAlign: 'top',
             y: 100,
-            floating: true,
+            floating: false,
             backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
         },
         series: [{
