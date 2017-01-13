@@ -791,6 +791,7 @@ footer p a,footer p a:hover,footer p a:focus {
     position: relative;
     z-index: 1;
     overflow: hidden;
+    background-color: #666666;
 }
 #section-zero{
     height: 630px;
