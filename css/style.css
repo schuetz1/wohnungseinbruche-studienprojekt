@@ -302,7 +302,8 @@ h6{
 .navbar-nav li a {
     padding: 10px;
     line-height: 30px;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 500;
     color: #999;
     position: relative;
     background: transparent !important;
@@ -798,21 +799,22 @@ footer p a,footer p a:hover,footer p a:focus {
 }
 
 #section-zero{
-    height: 630px;
+    height: 670px;
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
 #section-one{
-     height: 630px;
-     position: relative;
+     height: 670px;
+    margin-top: 50px;
+    position: relative;
      z-index: 1;
      overflow: hidden;
      background-color: #666666;
  }
 
 #section-tageszeit{
-    height: 630px;
+    height: 670px;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -820,14 +822,14 @@ footer p a,footer p a:hover,footer p a:focus {
 }
 
 #section-two{
-    height: 630px;
+    height: 670px;
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
 
 #section-three {
-    height: 630px;
+    height: 670px;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -836,14 +838,15 @@ footer p a,footer p a:hover,footer p a:focus {
 
 #section-four{
     margin-top:100px;
-    height: 630px;
+    height: 300px;
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background-color: #666666;
+    background-color: #113841;
+    color: #FFFFFF;
 }
 #section-five{
-    height: 700px;
+    height: 670px;
     position: relative;
     z-index: 1;
     overflow: hidden;
