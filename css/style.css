@@ -920,9 +920,9 @@ div.amcharts-main-div {
     float: right;
 }
 #placeholder {
-    margin-top: 52px;
-    width: 90%;
-    height: 50px;
+    margin-top: 150px;
+    width: 49%;
+    height: 400px;
     position: absolute;
     right: 5px;
     top: 5px;
