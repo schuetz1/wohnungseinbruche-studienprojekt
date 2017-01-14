@@ -109,6 +109,7 @@ var chart = AmCharts.makeChart("einbrueche", {
     }],
     "categoryField": "value",
     "categoryAxis": {
+        "tickLength": 0,
         "gridPosition": "start",
         "position": "left",
         "gridThickness": 1,
