@@ -512,9 +512,9 @@ var map = AmCharts.makeChart( "chartdiv", {
     dataProvider: {
         map: "worldHigh",
         areas: dataSets[0],
-        "zoomLevel": 6,
-        "zoomLongitude": 16,
-        "zoomLatitude": 47
+        "zoomLevel": 4,
+        "zoomLongitude": 44,
+        "zoomLatitude": 42
     },
     "areasSettings": {
         "rollOverOutlineColor": "#fff",
@@ -532,13 +532,13 @@ var map = AmCharts.makeChart( "chartdiv", {
 
     "legend": {
         "marginRight": 27,
-
+        "divId": "legenddiv",
         "marginLeft": 27,
         "equalWidths": true,
         "backgroundAlpha": 1,
         "backgroundColor": "#FFFFFF",
-        "borderColor": "none",
-        "borderAlpha": 0,
+        "borderColor": "#ffffff",
+        "borderAlpha": 1,
         "top": 30,
         "left": 0,
         "horizontalGap": 50,
@@ -557,8 +557,8 @@ var map = AmCharts.makeChart( "chartdiv", {
         }, {
             "title": "600+",
             "color": "#547980"
-        } ],
-        "divId": "legenddiv"
+        } ]
+
     },
 
 } );
@@ -884,11 +884,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -903,8 +905,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -919,11 +920,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -938,8 +941,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -955,11 +957,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -974,8 +978,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -990,11 +993,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             }],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [{
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1009,8 +1014,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1025,11 +1029,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1044,8 +1050,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1061,11 +1066,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1080,8 +1087,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1096,11 +1102,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1115,8 +1123,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1131,11 +1138,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1150,8 +1159,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1166,11 +1174,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1185,8 +1195,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1201,11 +1210,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1220,8 +1231,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1236,11 +1246,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1255,8 +1267,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1271,11 +1282,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1290,8 +1303,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1306,11 +1318,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1325,8 +1339,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength":0
             }
 
         })
@@ -1341,11 +1354,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1360,8 +1375,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1376,11 +1390,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1395,8 +1411,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1411,11 +1426,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1430,8 +1447,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1446,11 +1462,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1465,8 +1483,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1481,11 +1498,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1500,8 +1519,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
@@ -1516,11 +1534,13 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "fillColors":"#000",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1535,8 +1555,7 @@ map.addListener("clickMapObject", function(event){
             "categoryAxis": {
                 "gridPosition": "start",
                 "gridAlpha": 0,
-                "tickPosition": "start",
-                "tickLength": 20,
+                "tickLength": 0
             }
 
         })
