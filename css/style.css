@@ -1241,5 +1241,8 @@ a.right.carousel-control{
 
 #legenddiv {
    width: 100px !important;
-    position: relative;
+    position: absolute;
+}
+#select_year {
+    position: absolute;
 }

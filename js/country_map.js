@@ -11,7 +11,7 @@ var dataSets = [
         "title": "Deutschland",
         "id": "DE",
         "value": 3708,
-        "color":"#547980"
+        "color": "#113841"
     }, {
         "title": "Serbien",
         "id": "RS",
@@ -109,7 +109,7 @@ var dataSets = [
         "title": "Deutschland",
         "id": "DE",
         "value": 3418,
-        "color":"#547980"
+        "color": "#113841"
     }, {
         "title": "Serbien",
         "id": "RS",
@@ -207,7 +207,7 @@ var dataSets = [
         "title": "Deutschland",
         "id": "DE",
         "value": 3254,
-        "color":"#547980"
+        "color": "#113841"
     }, {
         "title": "Serbien",
         "id": "RS",
@@ -307,7 +307,7 @@ var dataSets = [
         "title": "Deutschland",
         "id": "DE",
         "value": 2985,
-        "color":"#547980"
+        "color": "#113841"
     }, {
         "title": "Serbien",
         "id": "RS",
@@ -406,7 +406,7 @@ var dataSets = [
         "title": "Deutschland",
         "id": "DE",
         "value": 2981,
-        "color":"#547980"
+        "color": "#113841"
 
     }, {
         "title": "Serbien",
@@ -554,7 +554,7 @@ var map = AmCharts.makeChart( "chartdiv", {
             "color": "#45ada8"
         }, {
             "title": "600+",
-            "color": "#547980"
+            "color": "#113841"
         } ]
 
     },
