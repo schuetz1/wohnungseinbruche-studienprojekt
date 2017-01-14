@@ -922,6 +922,7 @@ div.amcharts-main-div {
     float: right;
 }
 #placeholder {
+    margin-top: 60px;
     height: 300px;
     right: 5px;
     top: 5px;
@@ -1231,7 +1232,7 @@ a.right.carousel-control{
     height: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.8);
     z-index: 5;
 }
 

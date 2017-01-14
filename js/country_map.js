@@ -16,92 +16,92 @@ var dataSets = [
         "title": "Serbien",
         "id": "RS",
         "value": 344,
-        "color":"#45ada8"
+        "color": "#1f6677"
     }, {
         "title": "Rumänien",
         "id": "RO",
         "value": 116,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Türkei",
         "id": "TR",
         "value": 283,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Albanien",
         "id": "AL",
         "value": 21,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Polen",
         "id": "PL",
         "value": 104,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Georgien",
         "id": "GE",
         "value": 13,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Kroatien",
         "id": "HR",
         "value": 44,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Bosnien-Herzegovina",
         "id": "BA",
         "value": 71,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Marokko",
         "id": "MA",
         "value": 65,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Kosovo",
         "id": "XK",
         "value": 49,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Algerien",
         "id": "DZ",
         "value": 7,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Italien",
         "id": "IT",
         "value": 72,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Niederlande",
         "id": "NL",
         "value": 53,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Bulgarien",
         "id": "BG",
         "value": 22,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Makedonien",
         "id": "MK",
         "value": 33,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Litauen",
         "id": "LT",
         "value":16,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Frankreich ",
         "id": "FR",
         "value": 15,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Syrien",
         "id": "SY",
         "value":16,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }],
 
     // 2012
@@ -114,92 +114,92 @@ var dataSets = [
         "title": "Serbien",
         "id": "RS",
         "value": 362,
-        "color":"#45ada8"
+        "color": "#1f6677"
     }, {
         "title": "Rumänien",
         "id": "RO",
         "value": 167,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Türkei",
         "id": "TR",
         "value": 236,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Albanien",
         "id": "AL",
         "value": 33,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Polen",
         "id": "PL",
         "value": 128,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Georgien",
         "id": "GE",
         "value": 53,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Kroatien",
         "id": "HR",
         "value": 45,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Bosnien-Herzegovina",
         "id": "BA",
         "value": 106,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Marokko",
         "id": "MA",
         "value": 50,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Kosovo",
         "id": "XK",
         "value": 55,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Algerien",
         "id": "DZ",
         "value": 10,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Italien",
         "id": "IT",
         "value": 68,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Niederlande",
         "id": "NL",
         "value": 54,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Bulgarien",
         "id": "BG",
         "value": 40,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Makedonien",
         "id": "MK",
         "value": 35,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Litauen",
         "id": "LT",
         "value":6,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Frankreich ",
         "id": "FR",
         "value": 30,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Syrien",
         "id": "SY",
         "value":12,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }],
 
     //2013
@@ -212,92 +212,92 @@ var dataSets = [
         "title": "Serbien",
         "id": "RS",
         "value": 383,
-        "color":"#45ada8"
+        "color": "#1f6677"
     }, {
         "title": "Rumänien",
         "id": "RO",
         "value": 254,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Türkei",
         "id": "TR",
         "value": 227,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Albanien",
         "id": "AL",
         "value": 36,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Polen",
         "id": "PL",
         "value": 124,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Georgien",
         "id": "GE",
         "value": 80,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Kroatien",
         "id": "HR",
         "value": 63,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Bosnien-Herzegovina",
         "id": "BA",
         "value": 116,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Marokko",
         "id": "MA",
         "value": 72,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Kosovo",
         "id": "XK",
         "value": 53,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Algerien",
         "id": "DZ",
         "value": 21,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Italien",
         "id": "IT",
         "value": 40,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Niederlande",
         "id": "NL",
         "value": 40,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Bulgarien",
         "id": "BG",
         "value": 28,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Makedonien",
         "id": "MK",
         "value":47,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Litauen",
         "id": "LT",
         "value":25,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Frankreich ",
         "id": "FR",
         "value": 22,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Syrien",
         "id": "SY",
         "value":6,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }],
 
 
@@ -312,92 +312,92 @@ var dataSets = [
         "title": "Serbien",
         "id": "RS",
         "value": 406,
-        "color":"#45ada8"
+        "color": "#1f6677"
     }, {
         "title": "Rumänien",
         "id": "RO",
         "value": 283,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Türkei",
         "id": "TR",
         "value": 208,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Albanien",
         "id": "AL",
         "value": 80,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Polen",
         "id": "PL",
         "value": 119,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Georgien",
         "id": "GE",
         "value": 110,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Kroatien",
         "id": "HR",
         "value": 101,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Bosnien-Herzegovina",
         "id": "BA",
         "value": 103,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Marokko",
         "id": "MA",
         "value": 97,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Kosovo",
         "id": "XK",
         "value": 69,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Algerien",
         "id": "DZ",
         "value": 49,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Italien",
         "id": "IT",
         "value": 47,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Niederlande",
         "id": "NL",
         "value": 39,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Bulgarien",
         "id": "BG",
         "value": 43,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Makedonien",
         "id": "MK",
         "value":35,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Litauen",
         "id": "LT",
         "value":21,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Frankreich ",
         "id": "FR",
         "value": 23,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Syrien",
         "id": "SY",
         "value":14,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }],
 
 
@@ -412,92 +412,92 @@ var dataSets = [
         "title": "Serbien",
         "id": "RS",
         "value": 465,
-        "color":"#45ada8"
+        "color": "#1f6677"
     }, {
         "title": "Rumänien",
         "id": "RO",
         "value": 337,
-        "color":"#45ada8"
+        "color": "#1f6677"
     }, {
         "title": "Türkei",
         "id": "TR",
         "value": 210,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Albanien",
         "id": "AL",
         "value": 178,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Polen",
         "id": "PL",
         "value": 156,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Georgien",
         "id": "GE",
         "value": 140,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Kroatien",
         "id": "HR",
         "value": 139,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Bosnien-Herzegovina",
         "id": "BA",
         "value": 105,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Marokko",
         "id": "MA",
         "value": 103,
-        "color":"#9de0ad"
+        "color": "#4db8d1"
     }, {
         "title": "Kosovo",
         "id": "XK",
         "value": 92,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Algerien",
         "id": "DZ",
         "value": 85,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Italien",
         "id": "IT",
         "value": 81,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Niederlande",
         "id": "NL",
         "value": 53,
-        "color": "#CAF28D"
+        "color": "#83cddf"
     }, {
         "title": "Bulgarien",
         "id": "BG",
         "value": 47,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Makedonien",
         "id": "MK",
         "value":47,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Litauen",
         "id": "LT",
         "value":44,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Frankreich ",
         "id": "FR",
         "value": 37,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }, {
         "title": "Syrien",
         "id": "SY",
         "value":25,
-        "color": "#e5fcc2"
+        "color": "#b9e3ed"
     }]
 ];
 
@@ -519,9 +519,9 @@ var map = AmCharts.makeChart( "chartdiv", {
     "areasSettings": {
         "rollOverOutlineColor": "#fff",
         "alpha": 0.8,
-        "selectedColor":"#000",
+        "selectedColor":"#efd229",
         "outlineColor":"#000",
-        "rollOverColor":"#000",
+        "rollOverColor":"#efd229",
         "selectable":true,
         "autoZoom":true,
         "unlistedAreasColor":"#6a6a6a",
@@ -541,16 +541,16 @@ var map = AmCharts.makeChart( "chartdiv", {
         "horizontalGap": 50,
         "data": [ {
             "title": "0-50",
-            "color": "#CAF28D"
+            "color": "#b9e3ed"
         },{
             "title": "51-100",
-            "color": "#e5fcc2"
+            "color": "#83cddf"
         }, {
             "title": "101-300",
-            "color": "#9de0ad"
+            "color": "#4db8d1"
         }, {
             "title": "301-600",
-            "color": "#45ada8"
+            "color": "#1f6677"
         }, {
             "title": "600+",
             "color": "#113841"
@@ -887,7 +887,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -923,8 +923,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
-                "fillAlphas": 0.8,
+                "fillColors":"#efd229",                "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
                 "valueField": "Anzahl der TV"
@@ -960,7 +959,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -996,7 +995,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [{
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1032,7 +1031,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1069,7 +1068,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1105,7 +1104,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1141,7 +1140,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1177,7 +1176,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1213,7 +1212,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1249,7 +1248,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1285,7 +1284,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1321,7 +1320,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1357,7 +1356,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1393,7 +1392,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1429,7 +1428,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1465,7 +1464,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1501,7 +1500,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1537,7 +1536,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#000",
+                "fillColors":"#efd229",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
