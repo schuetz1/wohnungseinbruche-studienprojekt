@@ -1226,7 +1226,7 @@ a.right.carousel-control{
     text-align: left;
     position: absolute;
     top: 0px;
-    right: 30px;
+    right: 0px;
     width: 500px;
     height: 100%;
     padding-left: 10px;
@@ -1245,4 +1245,9 @@ a.right.carousel-control{
 }
 #select_year {
     position: absolute;
+}
+
+.container_country{
+    margin-left: 18px;
+    margin-right: 0px;
 }
