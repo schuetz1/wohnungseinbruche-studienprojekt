@@ -1223,6 +1223,7 @@ a.right.carousel-control{
 }
 
 .headline_country{
+    text-align: left;
     position: absolute;
     top: 0px;
     right: 30px;
@@ -1236,4 +1237,9 @@ a.right.carousel-control{
 
 .country_text {
     padding-top: 0px;
+}
+
+#legenddiv {
+   width: 100px !important;
+    position: relative;
 }

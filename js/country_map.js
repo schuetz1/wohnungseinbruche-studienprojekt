@@ -531,9 +531,7 @@ var map = AmCharts.makeChart( "chartdiv", {
     },
 
     "legend": {
-        "marginRight": 27,
         "divId": "legenddiv",
-        "marginLeft": 27,
         "equalWidths": true,
         "backgroundAlpha": 1,
         "backgroundColor": "#FFFFFF",
