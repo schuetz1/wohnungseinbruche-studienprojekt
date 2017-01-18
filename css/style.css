@@ -1249,3 +1249,8 @@ a.right.carousel-control{
 .highcharts-title{
     display: none;
 }
+
+.navbar{
+    opacity: 0.7;
+    background-color: black;
+}

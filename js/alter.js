@@ -25,7 +25,7 @@ $(document).ready(function () {
             tickInterval: null,
 
             title: {
-                text: 'Anzahl der Einbrüche',
+                text: 'Alter',
                 style: {
                     color: '#fff'
                 }
