@@ -1,31 +1,62 @@
 $(document).ready(function () {
     Highcharts.chart('alter', {
-
         chart: {
-            type: 'column'
+            type: 'column',
+            backgroundColor: '#666666'
         },
 
         title: {
-            text: 'Sortiert nach männlichen und weiblichen Tätern'
+            text: 'Sortiert nach Deutsche und Nicht-Deutsche Täter',
+            style: {
+                color: '#fff'
+            }
         },
 
         //16 Zahlen
 
+        xAxis: [{ // Primary yAxis
+            labels: {
+                format: '{value}',
+                style: {
+                    color: '#fff'
+                }
+            },
+            categories: [8, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76],
+            tickInterval: null,
 
-        yAxis: {
-            allowDecimals: false,
-            min: 0,
             title: {
-                text: 'Anzahl Tatverdächtige'
+                text: 'Anzahl der Einbrüche',
+                style: {
+                    color: '#fff'
+                }
             }
-        },
+        },],
+
+        yAxis: [{ // Primary yAxis
+            labels: {
+                format: '{value}',
+                style: {
+                    color: '#fff'
+                }
+            },
+            tickInterval: null,
+
+            title: {
+                text: 'Anzahl der Einbrüche',
+                style: {
+                    color: '#fff'
+                }
+            }
+        },],
 
         tooltip: {
             formatter: function () {
                 return '<b>' + this.x + '</b><br/>' +
                     this.series.name + ': ' + this.y + '<br/>' +
                     'Total: ' + this.point.stackTotal;
-            }
+
+            },
+
         },
 
         plotOptions: {
@@ -34,26 +65,18 @@ $(document).ready(function () {
             }
         },
 
-        xAxis: {
-            categories: ['8-10', '10-12', '12-14', '14-16', '16-18', '18-21', '21-23', '23-25', '21-25', '25-30', '30-40', '40-50', '50-60', '60+'
-            ]
-        },
+
+
         series: [
             {
-                name: 'Männlich',
-                data: [4, 7, 39, 190, 315, 649, 416, 410, 826, 849, 1115, 512, 207, 65],
+                name: 'Deutsche',
+                data: [3, 5, 75, 116, 120, 120, 73, 70, 60, 53, 25, 23, 23, 18, 10, 8, 6, 2, 1],
                 stack: 'male'
             },
             {
-                name: 'Weiblich',
-                data: [2, 5, 34, 108, 95, 138, 62, 79, 141, 123, 187, 96, 59, 24],
-                stack: 'male'
-            },
-            // {
-            //     name: 'Nicht-Deutsche',
-            //     data: [1, 4, 10, 50, 200, 300, 680, 400, 395, 817, 833, 1150, 520, 215, 74],
-            //     stack: 'female'
-            // },
-        ]
+                name: 'Nicht-Deutsche',
+                data: [4, 18, 61, 90, 130, 129, 102, 89, 50, 57, 30, 21, 10, 9, 3, 1, 4, 2, 1],
+                stack: 'female'
+            }]
     });
 });

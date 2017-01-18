@@ -837,12 +837,11 @@ footer p a,footer p a:hover,footer p a:focus {
 }
 
 #section-four{
-    margin-top:100px;
     height: 300px;
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background-color: #113841;
+    background-color: #4AA6C0;
     color: #FFFFFF;
 }
 #section-five{
@@ -867,7 +866,7 @@ footer p a,footer p a:hover,footer p a:focus {
     background-color: #666666;
 }
 
-.section-eight{
+#section-eight{
     height: 630px;
     position: relative;
     z-index: 1;
@@ -1032,7 +1031,7 @@ a.right.carousel-control{
 }
 
 .ch-grid {
-    margin: 20px 0 0 0;
+    margin: 100px 0 0 0;
     padding: 0;
     list-style: none;
     display: block;
@@ -1064,6 +1063,7 @@ a.right.carousel-control{
     position: relative;
     box-shadow: 0 1px 2px rgba(0,0,0,0.1);
     cursor: default;
+    background-color: #4AA6C0;
 }
 
 .ch-info-wrap{
@@ -1138,21 +1138,6 @@ a.right.carousel-control{
     background: #666;
 }
 
-.ch-img-1 {
-    background-image: url(../img/fotolia_80204793.jpg);
-}
-
-.ch-img-2 {
-    background-image: url(../img/fotolia_131019199.jpg);
-}
-
-.ch-img-3 {
-    background-image: url(../img/fotolia_131992594.jpg);
-}
-
-.ch-img-4{
-    background-image: url(../img/fotolia_79342954.jpg);
-}
 
 
 .ch-info h3 {
@@ -1163,13 +1148,12 @@ a.right.carousel-control{
     margin: 0 15px;
     padding: 40px 0 0 0;
     height: 90px;
-    font-family: 'Open Sans', Arial, sans-serif;
     text-shadow:
             0 0 1px #fff,
             0 1px 2px rgba(0,0,0,0.3);
 }
 
-.ch-info p {
+#inner-circle {
     color: #fff;
     padding: 10px 5px;
     font-style: italic;
@@ -1188,7 +1172,6 @@ a.right.carousel-control{
     font-size: 9px;
     letter-spacing: 1px;
     padding-top: 4px;
-    font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .ch-info p a:hover {
@@ -1251,4 +1234,18 @@ a.right.carousel-control{
 .container_country{
     margin-left: 18px;
     margin-right: 0px;
+}
+
+.highcharts-credits{
+    display: none;
+}
+
+#outer-circle{
+    margin-top: 31px;
+    font-size: 57px;
+    color: white;
+}
+
+.highcharts-title{
+    display: none;
 }
