@@ -841,7 +841,7 @@ footer p a,footer p a:hover,footer p a:focus {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background-color: #4AA6C0;
+    background-color: #000;
     color: #FFFFFF;
 }
 #section-five{
