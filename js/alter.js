@@ -61,7 +61,8 @@ $(document).ready(function () {
 
         plotOptions: {
             column: {
-                stacking: 'normal'
+                stacking: 'normal',
+                borderWidth: 0,
             }
         },
 
