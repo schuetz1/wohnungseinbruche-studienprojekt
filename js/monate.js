@@ -56,7 +56,14 @@ var chart = AmCharts.makeChart("monate",
                 }
             ],
             "allLabels": [],
-            "balloon": {},
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7
+            },
             "titles": [
                 {
                     "id": "Title-1",
