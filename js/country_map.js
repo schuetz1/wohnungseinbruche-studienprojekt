@@ -523,7 +523,7 @@ var map = AmCharts.makeChart( "chartdiv", {
         "outlineColor":"#000",
         "rollOverColor":"#efd229",
         "selectable":true,
-        "autoZoom":0.8,
+        "autoZoom":false,
         "unlistedAreasColor":"#6a6a6a",
         "unlistedAreasOutlineColor":"#6a6a6a",
         "unlistedAreasAlpha": 0.1,
@@ -891,7 +891,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -926,7 +927,9 @@ map.addListener("clickMapObject", function(event){
                 "fillColors":"#efd229",                "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
+
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -963,7 +966,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -999,7 +1003,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             }],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1035,7 +1040,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1072,7 +1078,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1108,7 +1115,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1144,7 +1152,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1170,7 +1179,8 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "title": "Anzahl der Tatverdächtigen",
+                "columnWidth":0.6
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1216,7 +1226,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1252,7 +1263,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1288,7 +1300,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1314,7 +1327,8 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "title": "Anzahl der Tatverdächtigen",
+                "columnWidth":0.6
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1350,7 +1364,9 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "title": "Anzahl der Tatverdächtigen",
+                "columnWidth":0.6
+
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1386,7 +1402,8 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "title": "Anzahl der Tatverdächtigen",
+                "columnWidth":0.6
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1422,7 +1439,8 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "title": "Anzahl der Tatverdächtigen",
+                "columnWidth":0.6
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1458,7 +1476,8 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "title": "Anzahl der Tatverdächtigen",
+                "columnWidth":0.6
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1494,7 +1513,8 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "title": "Anzahl der Tatverdächtigen",
+                "columnWidth":0.6
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1530,7 +1550,8 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "title": "Anzahl der Tatverdächtigen",
+                "columnWidth":0.6
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
