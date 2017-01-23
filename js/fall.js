@@ -41,14 +41,14 @@ $(function() {
             title: {
                 text: 'Höhe des Schadens',
                 style: {
-                    color: Highcharts.getOptions().colors[0]
+                    color:'#666666'
                 }
             },
 
             labels: {
                 format: '{value}€',
                 style: {
-                    color: Highcharts.getOptions().colors[0]
+                    color:'#666666'
                 }
             },
             opposite: true
@@ -81,6 +81,7 @@ $(function() {
 
             },
             type: 'column',
+            borderWidth: 0,
             yAxis: 1,
             data: [101089, 103304, 109278, 123239, 138482, 153712, 160171, 166270, 153600, 180813],
             tooltip: {

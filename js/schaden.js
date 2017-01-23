@@ -67,7 +67,6 @@ $(function () {
         series: [ {
             name: '0-50€',
             data:[1270,1234,1511,1515,1470,1762,1731,1937,1914,2264],
-            visible: false,
             color:'#fff'
         }, {
             name: '50-250€',
