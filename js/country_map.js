@@ -503,6 +503,7 @@ var dataSets = [
 
 var map = AmCharts.makeChart( "chartdiv", {
     "type": "map",
+    "dragMap":false,
     "zoomControl": {
         "zoomControlEnabled": false
     },
@@ -517,10 +518,11 @@ var map = AmCharts.makeChart( "chartdiv", {
         "zoomLatitude": 42
     },
     "areasSettings": {
-        "rollOverOutlineColor": "#fff",
+        "rollOverOutlineColor": "#000",
+        "outlineThickness":1,
         "alpha": 0.8,
         "selectedColor":"#666666",
-        "outlineColor":"#000",
+        "outlineColor":"#fff",
         "rollOverColor":"#666666",
         "selectable":true,
         "autoZoom":false,
