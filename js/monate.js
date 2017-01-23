@@ -31,7 +31,7 @@ var chart = AmCharts.makeChart("monate",
             "trendLines": [],
             "graphs": [
                 {
-                    "balloonText": "[[title]] of [[category]]:[[value]]",
+                    "balloonText": "[[value]]",
                     "bullet": "round",
                     "id": "AmGraph-1",
                     "title": "graph 1",
