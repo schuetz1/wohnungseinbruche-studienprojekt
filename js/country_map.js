@@ -523,7 +523,7 @@ var map = AmCharts.makeChart( "chartdiv", {
         "outlineColor":"#000",
         "rollOverColor":"#efd229",
         "selectable":true,
-        "autoZoom":true,
+        "autoZoom":0.8,
         "unlistedAreasColor":"#6a6a6a",
         "unlistedAreasOutlineColor":"#6a6a6a",
         "unlistedAreasAlpha": 0.1,
@@ -532,7 +532,7 @@ var map = AmCharts.makeChart( "chartdiv", {
 
     "legend": {
         "equalWidths": true,
-        "backgroundAlpha": 1,
+        "backgroundAlpha": 0.7,
         "backgroundColor": "#FFFFFF",
         "borderColor": "#ffffff",
         "borderAlpha": 1,
