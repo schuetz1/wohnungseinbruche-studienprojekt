@@ -2,7 +2,7 @@ $(document).ready(function () {
     Highcharts.chart('alter', {
         chart: {
             type: 'column',
-            backgroundColor: '#666666'
+            backgroundColor: '#FFFFFF'
         },
 
         title: {
