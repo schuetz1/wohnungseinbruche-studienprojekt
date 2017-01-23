@@ -863,7 +863,7 @@ footer p a,footer p a:hover,footer p a:focus {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background-color: #666666;
+    background-color: #FFFFFF;
 }
 
 #section-eight{
@@ -1063,7 +1063,7 @@ a.right.carousel-control{
     position: relative;
     box-shadow: 0 1px 2px rgba(0,0,0,0.1);
     cursor: default;
-    background-color: #4AA6C0;
+    background-color: #4aa6c0;
 }
 
 .ch-info-wrap{
@@ -1086,10 +1086,8 @@ a.right.carousel-control{
 
     top: 20px;
     left: 20px;
-    background-color: #666;
-    box-shadow:
-            0 0 0 20px rgba(255,255,255,0.2),
-            inset 0 0 3px rgba(115,114, 23, 0.8);
+    background-color: #113841;
+
 
 }
 
@@ -1135,7 +1133,7 @@ a.right.carousel-control{
     -ms-transform: rotate3d(0,1,0,180deg);
     transform: rotate3d(0,1,0,180deg);
 
-    background: #666;
+    background: #113841;
 }
 
 
@@ -1175,7 +1173,7 @@ a.right.carousel-control{
 }
 
 .ch-info p a:hover {
-    color: #666;
+    color: #113841;
 
 }
 
