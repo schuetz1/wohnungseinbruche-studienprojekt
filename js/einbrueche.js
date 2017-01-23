@@ -1,10 +1,11 @@
 /**
- * Created by Armires on 12/01/2017.
+ * Created by Andreas Hierath on 12/01/2017.
  */
 
 var chart = AmCharts.makeChart("einbrueche", {
     "type": "serial",
     "theme": "light",
+    "numberFormatter":{precision:-1, decimalSeparator:',', thousandsSeparator:'.'},
     "top":0,
     "sortColumns": true,
     "legend": {
@@ -78,7 +79,8 @@ var chart = AmCharts.makeChart("einbrueche", {
         "title": "Einbruchsfälle",
         "type": "column",
         "valueField": "Einbruchsfälle",
-        "fixedColumnWidth": 40
+        "fixedColumnWidth": 40,
+        "lineColor": "#4aa6c0"
 
     }, {
         "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
@@ -89,21 +91,20 @@ var chart = AmCharts.makeChart("einbrueche", {
         "clustered": false,
         "columnWidht": 0.5,
         "valueField": "Versuchte Einbrüche",
-        "fixedColumnWidth": 40
+        "fixedColumnWidth": 40,
+        "lineColor": "#113841"
 
     }, {
         "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
-        "fillAlphas": 0.8,
-        "lineAlpha": 0.3,
+        "fillAlphas": 0,
+        "lineAlpha": 1,
         "title": "Aufklärungsquote",
         "bullet": "round",
         "bulletBorderAlpha": 0,
         "bulletColor": "#000",
         "useLineColorForBulletBorder": true,
-        "fillAlphas": 0,
         "lineThickness": 2,
         "lineColor": "#000",
-        "lineAlpha": 1,
         "bulletSize": 8,
         "valueField": "Aufklärungsquote"
     }],
@@ -112,7 +113,7 @@ var chart = AmCharts.makeChart("einbrueche", {
         "tickLength": 0,
         "gridPosition": "start",
         "position": "left",
-        "gridThickness": 1,
+        "gridThickness": 0,
         "labelRotation": 0
     },"valueAxes": [ {
         "axisAlpha": 0,
