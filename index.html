@@ -224,22 +224,20 @@
         <div class="row relative">
             <div class="text-center">
                 <div id="chartdiv"></div>
-                <div class="row" id="select_year">
-                    <div class="btn-group" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default" onclick="setDataset(0);"> 2011</button>
-                        <button type="button" class="btn btn-default" onclick="setDataset(1);"> 2012</button>
-                        <button type="button" class="btn btn-default" onclick="setDataset(2);"> 2013</button>
-                        <button type="button" class="btn btn-default" onclick="setDataset(3);"> 2014</button>
-                        <button type="button" class="btn btn-default" onclick="setDataset(4);"> 2015</button>
-                    </div>
-                </div>
                 <div class="headline_country">
-                        <h1 class="country_text" style="margin-top:52px">Aus welchen Ländern stammen die
+                        <h1 class="country_text" style="margin-top:15px">Aus welchen Ländern stammen die
                         Tatverdächtigen?</h1>
-                    <h4>Durch das Auswählen eines
+                    <h4 class="country_text">Durch das Auswählen eines
                         Landes sehen Sie die Entwicklung über die Jahre.</h4>
-
-
+                    <div id="select_year">
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default" onclick="setDataset(0);"> 2011</button>
+                            <button type="button" class="btn btn-default" onclick="setDataset(1);"> 2012</button>
+                            <button type="button" class="btn btn-default" onclick="setDataset(2);"> 2013</button>
+                            <button type="button" class="btn btn-default" onclick="setDataset(3);"> 2014</button>
+                            <button type="button" class="btn btn-default" onclick="setDataset(4);"> 2015</button>
+                        </div>
+                    </div>
                     <div id="placeholder"></div>
                 </div>
 
