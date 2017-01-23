@@ -1327,8 +1327,7 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen",
-                "columnWidth":0.6
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1338,7 +1337,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1364,8 +1364,7 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen",
-                "columnWidth":0.6
+                "title": "Anzahl der Tatverdächtigen"
 
             } ],
             "gridAboveGraphs": true,
@@ -1376,7 +1375,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1402,8 +1402,7 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen",
-                "columnWidth":0.6
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1413,7 +1412,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1439,8 +1439,7 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen",
-                "columnWidth":0.6
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1450,7 +1449,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1476,8 +1476,7 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen",
-                "columnWidth":0.6
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1487,7 +1486,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1513,8 +1513,7 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen",
-                "columnWidth":0.6
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1524,7 +1523,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1550,8 +1550,7 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen",
-                "columnWidth":0.6
+                "title": "Anzahl der Tatverdächtigen"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
@@ -1561,7 +1560,8 @@ map.addListener("clickMapObject", function(event){
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
-                "valueField": "Anzahl der TV"
+                "valueField": "Anzahl der TV",
+                "columnWidth":0.6
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
