@@ -799,14 +799,15 @@ footer p a,footer p a:hover,footer p a:focus {
 }
 
 #section-zero{
-    height: 670px;
+    height: 660px;
+    padding-top: 20px;
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
 #section-one{
-     height: 670px;
-    margin-top: 50px;
+     height: 660px;
+    padding-top: 20px;
     position: relative;
      z-index: 1;
      overflow: hidden;
@@ -814,7 +815,8 @@ footer p a,footer p a:hover,footer p a:focus {
  }
 
 #section-tageszeit{
-    height: 670px;
+    height: 660px;
+    padding-top: 20px;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -822,14 +824,16 @@ footer p a,footer p a:hover,footer p a:focus {
 }
 
 #section-two{
-    height: 670px;
+    height: 660px;
+    padding-top: 20px;
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
 
 #section-three {
-    height: 670px;
+    height: 660px;
+    padding-top: 20px;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -852,14 +856,17 @@ footer p a,footer p a:hover,footer p a:focus {
     background-color: #ffffff;
 }
 #section-six{
-    height: 630px;
+    height: 660px;
+    padding-top: 20px;
     position: relative;
     z-index: 1;
     overflow: hidden;
     background-color: #666666;
 }
 #section-seven {
-    height: 638px;
+    height: 660px;
+    padding-top: 20px;
+
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -867,7 +874,8 @@ footer p a,footer p a:hover,footer p a:focus {
 }
 
 #section-eight{
-    height: 630px;
+    height: 660px;
+    padding-top: 20px;
     position: relative;
     z-index: 1;
     overflow: hidden;

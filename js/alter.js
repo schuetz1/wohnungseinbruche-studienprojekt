@@ -18,7 +18,7 @@ $(document).ready(function () {
             labels: {
                 format: '{value}',
                 style: {
-                    color: '#fff'
+                    color: '#000'
                 }
             },
             categories: [8, 12, 14, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76],
@@ -27,7 +27,7 @@ $(document).ready(function () {
             title: {
                 text: 'Alter',
                 style: {
-                    color: '#fff'
+                    color: '#000'
                 }
             }
         },],
@@ -36,7 +36,7 @@ $(document).ready(function () {
             labels: {
                 format: '{value}',
                 style: {
-                    color: '#fff'
+                    color: '#000'
                 }
             },
             tickInterval: null,
@@ -44,7 +44,7 @@ $(document).ready(function () {
             title: {
                 text: 'Anzahl der Einbrüche',
                 style: {
-                    color: '#fff'
+                    color: '#000'
                 }
             }
         },],
@@ -72,12 +72,14 @@ $(document).ready(function () {
             {
                 name: 'Deutsche',
                 data: [3, 5, 75, 116, 120, 120, 73, 70, 60, 53, 25, 23, 23, 18, 10, 8, 6, 2, 1],
-                stack: 'male'
+                stack: 'deutsch',
+                color: '#113841'
             },
             {
                 name: 'Nicht-Deutsche',
                 data: [4, 18, 61, 90, 130, 129, 102, 89, 50, 57, 30, 21, 10, 9, 3, 1, 4, 2, 1],
-                stack: 'female'
+                stack: 'nichtdeutsch',
+                color: '#4aa6c0'
             }]
     });
 });
