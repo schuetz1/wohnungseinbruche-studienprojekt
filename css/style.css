@@ -825,7 +825,6 @@ footer p a,footer p a:hover,footer p a:focus {
 
 #section-two{
     height: 660px;
-    padding-top: 20px;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -942,6 +941,7 @@ div .amcharts-chart-div a {
 
 #select_year {
     float: left;
+    position: absolute;
 }
 /* Schaden ---------------------------------------------------------------- */
 
@@ -1233,9 +1233,7 @@ a.right.carousel-control{
    width: 100px !important;
     position: absolute;
 }
-#select_year {
-    position: absolute;
-}
+
 
 .container_country{
     margin-left: 18px;
