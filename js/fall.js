@@ -34,7 +34,7 @@ $(function() {
             title: {
                 text: 'Anzahl der Einbrüche',
                 style: {
-                    color: Highcharts.getOptions().colors[1]
+                    color: '#fff'
                 }
             }
         }, { // Secondary yAxis
@@ -70,7 +70,7 @@ $(function() {
             dataLabels:{
                 enabled: true,
                 rotation: -90,
-                color: '#FFFFFF',
+                color: '#000',
                 align: 'right',
                 format: '{point.y}€',
                 y: 10, // 10 pixels down from the top
@@ -81,6 +81,7 @@ $(function() {
 
             },
             type: 'column',
+            color:'#b9e3ed',
             borderWidth: 0,
             yAxis: 1,
             data: [101089, 103304, 109278, 123239, 138482, 153712, 160171, 166270, 153600, 180813],
@@ -91,6 +92,7 @@ $(function() {
         }, {
             name: 'Fallzahlen',
             type: 'line',
+            color:'#4aa6c0',
             data:[23696, 22977, 23151, 25029, 27162, 30579, 32453, 32231, 30272, 35128],
 
             tooltip: {
