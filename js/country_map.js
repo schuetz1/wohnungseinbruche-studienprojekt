@@ -519,9 +519,9 @@ var map = AmCharts.makeChart( "chartdiv", {
     "areasSettings": {
         "rollOverOutlineColor": "#fff",
         "alpha": 0.8,
-        "selectedColor":"#efd229",
+        "selectedColor":"#666666",
         "outlineColor":"#000",
-        "rollOverColor":"#efd229",
+        "rollOverColor":"#666666",
         "selectable":true,
         "autoZoom":false,
         "unlistedAreasColor":"#6a6a6a",
@@ -887,7 +887,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -924,7 +924,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",                "fillAlphas": 0.8,
+                "fillColors":"#666666",                "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
                 "valueField": "Anzahl der TV",
@@ -962,7 +962,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -999,7 +999,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [{
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1036,7 +1036,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1074,7 +1074,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1111,7 +1111,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1148,7 +1148,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1186,7 +1186,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1222,7 +1222,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1259,7 +1259,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1296,7 +1296,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1333,7 +1333,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1371,7 +1371,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1408,7 +1408,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1445,7 +1445,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1482,7 +1482,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1519,7 +1519,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
@@ -1556,7 +1556,7 @@ map.addListener("clickMapObject", function(event){
             "startDuration": 1,
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#efd229",
+                "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
