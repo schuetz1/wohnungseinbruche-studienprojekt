@@ -22,7 +22,23 @@ $(function() {
                 }
             }
         }],
-        yAxis: [{ // Primary yAxis
+        yAxis: [
+            { // Secondary yAxis
+                title: {
+                    text: 'Höhe des Schadens',
+                    style: {
+                        color:'#666666'
+                    }
+                },
+
+                labels: {
+                    format: '{value}€',
+                    style: {
+                        color:'#666666'
+                    }
+                },
+                opposite: true
+            },{ // Primary yAxis
             labels: {
                 format: '{value}',
                 style: {
@@ -32,26 +48,12 @@ $(function() {
             tickInterval:null,
 
             title: {
-                text: 'Anzahl der Einbrüche',
+                text: 'Höhe der Schadenssumme',
+                fontFamily:'Lato',
                 style: {
                     color: '#fff'
                 }
             }
-        }, { // Secondary yAxis
-            title: {
-                text: 'Höhe des Schadens',
-                style: {
-                    color:'#666666'
-                }
-            },
-
-            labels: {
-                format: '{value}€',
-                style: {
-                    color:'#666666'
-                }
-            },
-            opposite: true
         }],
         tooltip: {
             shared: true
@@ -63,6 +65,9 @@ $(function() {
             verticalAlign: 'bottom',
             y: 0,
             floating: false,
+            lang: {
+                thousandsSep: ','
+            },
             backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || ''
         },
         series: [{
@@ -81,7 +86,7 @@ $(function() {
 
             },
             type: 'column',
-            color:'#b9e3ed',
+            color:'#fff',
             borderWidth: 0,
             yAxis: 1,
             data: [101089, 103304, 109278, 123239, 138482, 153712, 160171, 166270, 153600, 180813],
@@ -96,7 +101,7 @@ $(function() {
             data:[23696, 22977, 23151, 25029, 27162, 30579, 32453, 32231, 30272, 35128],
 
             tooltip: {
-                valueSuffix: 'Fälle'
+                valueSuffix: 'Einbrüche'
             }
         }
         ]
