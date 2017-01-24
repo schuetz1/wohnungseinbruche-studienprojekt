@@ -914,13 +914,19 @@ footer p a,footer p a:hover,footer p a:focus {
     color: #4aa6c0;
 }
 
+.darkblue{
+    color: #113841;
+
+}
+
 .yellow{
     color: #efd229;
 }
 
 .counter {
   font-size:150px;
-    color: #FFFFFF;
+    color: #000;
+    font-weight: 300;
     padding-left: 720px;
 }
 
