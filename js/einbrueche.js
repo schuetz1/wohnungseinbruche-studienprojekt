@@ -101,10 +101,10 @@ var chart = AmCharts.makeChart("einbrueche", {
         "title": "Aufklärungsquote",
         "bullet": "round",
         "bulletBorderAlpha": 0,
-        "bulletColor": "#EFD229",
+        "bulletColor": "#FFFFFF",
         "useLineColorForBulletBorder": true,
-        "lineThickness": 2,
-        "lineColor": "#EFD229",
+        "lineThickness": 0,
+        "lineColor": "#FFFFFF",
         "bulletSize": 8,
         "valueField": "Aufklärungsquote"
     }],
