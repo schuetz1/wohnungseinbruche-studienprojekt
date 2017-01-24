@@ -505,9 +505,11 @@ var map = AmCharts.makeChart( "chartdiv", {
     "type": "map",
     "dragMap":true,
     "zoomControl": {
-        "zoomControlEnabled": false
+        "zoomControlEnabled": false,
+        "panControlEnabled": false,
     },
     "panEventsEnabled": true,
+
     "theme": "light",
     "colorSteps": 5,
     dataProvider: {
