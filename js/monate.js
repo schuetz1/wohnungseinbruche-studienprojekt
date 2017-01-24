@@ -49,7 +49,7 @@ var chart = AmCharts.makeChart("monate",
                     "axisColor": "#FFFFFF",
                     "gridColor": "#FFFFFF",
                     "decimalSeparator": ".",
-                    "title": ""
+                    "title": "",
                     "showFirstLabel": false,
                     "showLastLabel": false,
                 }
