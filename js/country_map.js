@@ -879,6 +879,7 @@ map.addListener("clickMapObject", function(event){
         chart = AmCharts.makeChart( "placeholder", {
             "type": "serial",
             "theme": "light",
+            "numberFormatter":{precision:-1, decimalSeparator:',', thousandsSeparator:'.'},
             "dataProvider": chartData.DE,
             "valueAxes": [ {
                 "gridColor": "#FFFFFF",

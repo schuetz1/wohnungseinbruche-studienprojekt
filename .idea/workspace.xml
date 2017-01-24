@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01296fc7-19a4-4de7-bde2-6a9015c45d8a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/country_map.js" afterPath="$PROJECT_DIR$/js/country_map.js" />
     </list>
     <ignored path="webdesign3.iws" />
@@ -51,8 +50,8 @@
       <file leaf-file-name="country_map.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/country_map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="533" column="34" lean-forward="false" selection-start-line="533" selection-start-column="34" selection-end-line="533" selection-end-column="34" />
+            <state relative-caret-position="575">
+              <caret line="881" column="91" lean-forward="true" selection-start-line="881" selection-start-column="91" selection-end-line="881" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -61,8 +60,8 @@
       <file leaf-file-name="einbrueche.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/einbrueche.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1600">
-              <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding>
                 <marker date="1485213374755" expanded="true" signature="2055:2069" ph="..." />
                 <marker date="1485213374755" expanded="true" signature="2395:2409" ph="..." />
@@ -82,6 +81,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="fall.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/fall.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1525">
+              <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -94,8 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>section-th</find>
-      <find>borderWidthborderWidth</find>
       <find>borderWidth</find>
       <find>tatzeiten</find>
       <find>schaden</find>
@@ -122,8 +129,10 @@
       <find>zoom</find>
       <find>zoomChart</find>
       <find>hover</find>
-      <find>mouse</find>
       <find>gly</find>
+      <find>mouse</find>
+      <find>numberF</find>
+      <find>oncli</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\webdesign3\js</dir>
@@ -326,7 +335,7 @@
       <workItem from="1484695663742" duration="8179000" />
       <workItem from="1484728017205" duration="273000" />
       <workItem from="1484759636596" duration="1159000" />
-      <workItem from="1485209916777" duration="7210000" />
+      <workItem from="1485209916777" duration="7501000" />
     </task>
     <task id="LOCAL-00001" summary="css für section-zero angepasst">
       <created>1484261110736</created>
@@ -447,11 +456,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485216661339</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Mouse scroll deaktiviert">
+      <created>1485217141334</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1485217141334</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52675000" />
+    <option name="totallyTimeSpent" value="52966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="3862" height="2136" extended-state="6" />
@@ -546,7 +562,8 @@
     <MESSAGE value="Änderungen an Einbruchs-Chart" />
     <MESSAGE value="Country Map Mouse Drag Funktion eingefügt und Mouse Scroll getestet/deaktiviert" />
     <MESSAGE value="Mouse scroll reaktiviert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mouse scroll reaktiviert" />
+    <MESSAGE value="Mouse scroll deaktiviert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mouse scroll deaktiviert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -815,14 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/fall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -852,10 +861,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/fall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/einbrueche.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1600">
-          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
             <marker date="1485213374755" expanded="true" signature="2055:2069" ph="..." />
             <marker date="1485213374755" expanded="true" signature="2395:2409" ph="..." />
@@ -866,8 +883,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/country_map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="533" column="34" lean-forward="false" selection-start-line="533" selection-start-column="34" selection-end-line="533" selection-end-column="34" />
+        <state relative-caret-position="575">
+          <caret line="881" column="91" lean-forward="true" selection-start-line="881" selection-start-column="91" selection-end-line="881" selection-end-column="91" />
           <folding />
         </state>
       </provider>
