@@ -50,6 +50,8 @@ var chart = AmCharts.makeChart("monate",
                     "gridColor": "#FFFFFF",
                     "decimalSeparator": ".",
                     "title": ""
+                    "showFirstLabel": false,
+                    "showLastLabel": false,
                 }
             ],
             "allLabels": [
