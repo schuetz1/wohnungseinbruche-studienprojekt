@@ -7,6 +7,9 @@ $(function () {
             type: 'column',
             backgroundColor: 'transparent',
         },
+        style: {
+            fontFamily: 'Lato'
+        },
         title: {
             text: ''
 
@@ -26,6 +29,7 @@ $(function () {
         yAxis: {
             min: 0,
             title: {
+
                 text: 'Anzahl der Fälle',
                 align: 'middle',
                 style: {
@@ -77,27 +81,27 @@ $(function () {
             data:[2211,2088,1967,2016,2202,2452,2521,2457,2408,2860],
             color: "#b9e3ed"
         }, {
-            name: '500-2500€',
+            name: '500-2.500€',
             data:[7951,7953,8786,9655,10745,11553,11389,10737,12370],
             visible: false,
             color: '#66cccc'
         }, {
-            name: '2500- 5000€',
+            name: '2.500- 5.000€',
             data:[3489,3322,3097,3497,3933,4476,4978,4855,4319,5071],
             visible: false,
             color: '#68c3d8'
         }, {
-            name: '5000 -25000€',
+            name: '5.000 -25.000€',
             data:[4685,4556,4812,5260,5746,6550,7109,7039,6353,7497],
             visible: false,
             color:'#4aa6c0'
         }, {
-            name: '25000 - 50000€',
+            name: '25.000 - 50.000€',
             data:[493,531,559,694,716,834,875,925,829,924],
             visible: false,
             color:'#113841'
         }, {
-            name: '50000€+',
+            name: '50.000€+',
             data: [197,196,233,255,320,346,299,337,379,393],
             visible: false,
             color: '#000'
