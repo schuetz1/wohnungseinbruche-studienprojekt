@@ -6,6 +6,7 @@ var chart = AmCharts.makeChart("einbrueche", {
     "type": "serial",
     "theme": "light",
     "numberFormatter":{precision:-1, decimalSeparator:',', thousandsSeparator:'.'},
+    "fontFamily": "lato",
     "top":0,
     "sortColumns": true,
     "legend": {
@@ -117,7 +118,9 @@ var chart = AmCharts.makeChart("einbrueche", {
         "labelRotation": 0
     },"valueAxes": [ {
         "axisAlpha": 0,
-        "position": "left"
+        "position": "left",
+        "showFirstLabel": false,
+        "showLastLabel": false
     } ],
 
 });
