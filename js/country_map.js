@@ -507,6 +507,8 @@ var map = AmCharts.makeChart( "chartdiv", {
     "zoomControl": {
         "zoomControlEnabled": false,
         "panControlEnabled": false,
+        "homeButtonEnabled":false,
+        "maxZoomLevel": 4,
     },
     "panEventsEnabled": true,
 
