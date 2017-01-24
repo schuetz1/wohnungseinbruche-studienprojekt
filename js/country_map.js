@@ -503,7 +503,7 @@ var dataSets = [
 
 var map = AmCharts.makeChart( "chartdiv", {
     "type": "map",
-    "dragMap":false,
+    "dragMap":true,
     "zoomControl": {
         "zoomControlEnabled": false
     },
@@ -531,6 +531,7 @@ var map = AmCharts.makeChart( "chartdiv", {
         "unlistedAreasAlpha": 0.1,
         "balloonText": "[[title]]"
     },
+    "mouseWheelZoomEnabled": false,
 
     "legend": {
         "equalWidths": true,
