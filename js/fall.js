@@ -2,6 +2,13 @@
  * Created by luisaziegler on 12.01.17.
  */
 $(function() {
+    Highcharts.setOptions({
+        lang: {
+            decimalPoint: ',',
+            thousandsSep: '.'
+        }
+    });
+
     Highcharts.chart('fallzahlen', {
         chart: {
             backgroundColor: null,
@@ -52,6 +59,7 @@ $(function() {
                 fontFamily:'Lato',
                 style: {
                     color: '#fff'
+
                 }
             }
         }],
@@ -66,18 +74,20 @@ $(function() {
             y: 0,
             floating: false,
             lang: {
-                thousandsSep: ','
+                decimalPoint: ',',
+                thousandsSep: '.'
             },
             backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || ''
         },
         series: [{
             name: 'Schaden',
             dataLabels:{
+                numberFormat:'decimal',
                 enabled: true,
                 rotation: -90,
                 color: '#000',
                 align: 'right',
-                format: '{point.y}€',
+                format: '{point.y:,.0f}€',
                 y: 10, // 10 pixels down from the top
                 style: {
                     fontSize: '13px',
