@@ -529,6 +529,7 @@ var map = AmCharts.makeChart( "chartdiv", {
         "unlistedAreasColor":"#6a6a6a",
         "unlistedAreasOutlineColor":"#6a6a6a",
         "unlistedAreasAlpha": 0.1,
+        "fontFamily": 'Lato',
         "balloonText": "[[title]]"
     },
     "mouseWheelZoomEnabled": false,
@@ -886,12 +887,14 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "title": "Anzahl der Täter",
+                "fontFamily":'Lato'
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
+                "fontFamliy":'Lato',
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
@@ -923,13 +926,16 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":'Lato',
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
-                "fillColors":"#666666",                "fillAlphas": 0.8,
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
+                "fontFamily":"Lato",
+                "fillColors":"#666666",
+                "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
                 "valueField": "Anzahl der TV",
@@ -961,12 +967,14 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
+                "fontFamily":"Lato",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
@@ -998,16 +1006,18 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             }],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [{
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
+                "fontFamily":"Lato",
                 "valueField": "Anzahl der TV",
                 "columnWidth":0.6
             }],
@@ -1035,16 +1045,18 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
+                "fontFamily":"Lato",
                 "valueField": "Anzahl der TV",
                 "columnWidth":0.6
             } ],
@@ -1073,17 +1085,19 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
                 "valueField": "Anzahl der TV",
+                "fontFamily":"Lato",
                 "columnWidth":0.6
             } ],
             "chartCursor": {
@@ -1110,18 +1124,20 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
                 "valueField": "Anzahl der TV",
-                "columnWidth":0.6
+                "columnWidth":0.6,
+                "fontFamily":"Lato"
             } ],
             "chartCursor": {
                 "categoryBalloonEnabled": false,
@@ -1147,17 +1163,19 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
                 "valueField": "Anzahl der TV",
+                "fontFamily":"Lato",
                 "columnWidth":0.6
             } ],
             "chartCursor": {
@@ -1184,17 +1202,19 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen",
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter",
                 "columnWidth":0.6
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
+                "fontFamily":"Lato",
                 "valueField": "Anzahl der TV"
             } ],
             "chartCursor": {
@@ -1221,16 +1241,18 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
+                "fontFamily":"Lato",
                 "valueField": "Anzahl der TV",
                 "columnWidth":0.6
             } ],
@@ -1258,16 +1280,18 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
+                "fontFamily":"Lato",
                 "valueField": "Anzahl der TV",
                 "columnWidth":0.6
             } ],
@@ -1295,17 +1319,19 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
                 "valueField": "Anzahl der TV",
+                "fontFamily":"Lato",
                 "columnWidth":0.6
             } ],
             "chartCursor": {
@@ -1332,16 +1358,18 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
+                "fontFamily":"Lato",
                 "valueField": "Anzahl der TV",
                 "columnWidth":0.6
             } ],
@@ -1369,17 +1397,19 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
 
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
+                "fontFamily":"Lato",
                 "valueField": "Anzahl der TV",
                 "columnWidth":0.6
             } ],
@@ -1407,16 +1437,18 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
+                "fontFamily":"Lato",
                 "valueField": "Anzahl der TV",
                 "columnWidth":0.6
             } ],
@@ -1444,17 +1476,19 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
                 "valueField": "Anzahl der TV",
+                "fontFamily":"Lato",
                 "columnWidth":0.6
             } ],
             "chartCursor": {
@@ -1481,16 +1515,18 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
+                "fontFamily":"Lato",
                 "valueField": "Anzahl der TV",
                 "columnWidth":0.6
             } ],
@@ -1518,16 +1554,18 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "fontFamily":"Lato",
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,
                 "type": "column",
+                "fontFamily":"Lato",
                 "valueField": "Anzahl der TV",
                 "columnWidth":0.6
             } ],
@@ -1555,12 +1593,12 @@ map.addListener("clickMapObject", function(event){
                 "gridColor": "#FFFFFF",
                 "gridAlpha": 0.2,
                 "dashLength": 0,
-                "title": "Anzahl der Tatverdächtigen"
+                "title": "Anzahl der Täter"
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
             "graphs": [ {
-                "balloonText": "[[year]]: <b>[[value]]</b> Tatverdächtige",
+                "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
                 "fillAlphas": 0.8,
                 "lineAlpha": 0.2,

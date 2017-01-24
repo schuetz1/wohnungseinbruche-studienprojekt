@@ -225,9 +225,9 @@
             <div class="text-center">
                 <div id="chartdiv"></div>
                 <div class="headline_country">
-                        <h1 class="country_text" style="margin-top:65px">Aus welchen Ländern stammen die
-                        Tatverdächtigen?</h1>
-                    <h4 class="country_text">Durch das Auswählen eines Jahres sehen Sie auf der Karte farblich gekennzeichnet die Entwicklung. Klicken Sie auf ein Land um einen Gesamtüberblick zu erhalten.</h4>
+                        <h1 class="country_text" style="margin-top:65px;line-height: 1.2;">Aus welchen Ländern stammen die
+                        Täter?</h1>
+                    <h4 class="country_text">Durch das Auswählen eines Jahres sehen Sie auf der Karte farblich gekennzeichnet die Anzahl der Täter. Klicken Sie auf ein Land um einen Gesamtüberblick zu erhalten.</h4>
                     <div id="select_year">
                         <div class="btn-group" role="group" aria-label="...">
                             <button type="button" class="btn btn-default" onclick="setDataset(0) & clearBox('placeholder');"> 2011</button>
@@ -238,7 +238,7 @@
                         </div>
 
                     </div>
-                    <div id="placeholder"> Wählen Sie auf der Karte ein Land aus</div>
+                    <div id="placeholder"> Für mehr Informationen wählen Sie ein Land aus.</div>
                 </div>
 
 
@@ -735,6 +735,7 @@
 <script src="js/modernizr.custom.79639.js"></script>
 <script>
     $(document).ready(function () {
+
         $('[data-toggle="tooltip"]').tooltip();
     });
 
@@ -745,7 +746,7 @@
     }
 
     function clearBox(id){
-        document.getElementById(id).innerHTML = 'Wählen Sie auf der Karte ein Land aus';
+        document.getElementById(id).innerHTML = 'Für mehr Informationen wählen Sie ein Land aus.';
     }
     function replace2015() {
         document.getElementById("div1").style.display = "block";
