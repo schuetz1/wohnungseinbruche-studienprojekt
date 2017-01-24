@@ -9,7 +9,7 @@ var chart =   AmCharts.makeChart("wochentage",
             "backgroundColor": "#763B3B",
             "fontFamily": "lato",
             "fontSize": 10,
-            "decimalSeparator": ",",
+            "decimalSeparator": ".",
             "precision": 1,
             "categoryAxis": {
                 "gridPosition": "start",
