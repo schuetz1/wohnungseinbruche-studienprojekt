@@ -531,7 +531,7 @@ var map = AmCharts.makeChart( "chartdiv", {
         "unlistedAreasAlpha": 0.1,
         "balloonText": "[[title]]"
     },
-    "mouseWheelZoomEnabled": true,
+    "mouseWheelZoomEnabled": false,
 
     "legend": {
         "equalWidths": true,

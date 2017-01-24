@@ -974,9 +974,11 @@ div .amcharts-chart-div a {
 
 span.glyphicon.glyphicon-chevron-left {
     margin-left: -100px;
+    color: #000000;
 }
 span.glyphicon.glyphicon-chevron-right{
     margin-right: -100px;
+    color: #000000;
 }
 
 a.left.carousel-control {
