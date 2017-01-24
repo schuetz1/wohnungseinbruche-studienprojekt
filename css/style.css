@@ -950,6 +950,7 @@ div .amcharts-chart-div a {
 
 #select_year {
     float: left;
+    margin-top: 17px;
     position: absolute;
 }
 /* Schaden ---------------------------------------------------------------- */
@@ -1272,4 +1273,8 @@ a.right.carousel-control{
 
 #altersgruppe-abstand {
     margin-top: 70px;
+}
+
+.amChartsLegend.amcharts-legend-div{
+    width: 689px;
 }

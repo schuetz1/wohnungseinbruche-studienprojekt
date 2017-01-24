@@ -539,8 +539,9 @@ var map = AmCharts.makeChart( "chartdiv", {
         "backgroundColor": "#FFFFFF",
         "borderColor": "#ffffff",
         "borderAlpha": 1,
-        "top": 621,
+        "top": 590,
         "left": 0,
+        "width":689,
         "horizontalGap": 50,
         "data": [ {
             "title": "0-50",
