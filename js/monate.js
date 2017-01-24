@@ -14,6 +14,8 @@ var chart = AmCharts.makeChart("monate",
             "startEffect": "easeOutSine",
             "urlTarget": "",
             "backgroundColor": "#763B3B",
+            "thousandsSeparator": ".",
+            "decimalSeparator": ".",
             "color": "#FFFFFF",
             "fontFamily": "lato",
             "fontSize": 10,
@@ -37,13 +39,7 @@ var chart = AmCharts.makeChart("monate",
                     "title": "graph 1",
                     "valueField": "column-1"
                 },
-                {
-                    "balloonText": "[[title]] of [[category]]:[[value]]",
-                    "bullet": "square",
-                    "id": "AmGraph-2",
-                    "title": "graph 2",
-                    "valueField": "column-2"
-                }
+
             ],
             "guides": [],
             "valueAxes": [
@@ -52,10 +48,13 @@ var chart = AmCharts.makeChart("monate",
                     "axisAlpha": 0,
                     "axisColor": "#FFFFFF",
                     "gridColor": "#FFFFFF",
+                    "decimalSeparator": ".",
                     "title": ""
                 }
             ],
-            "allLabels": [],
+            "allLabels": [
+
+],
             "balloon": {
                 "adjustBorderColor": false,
                 "borderThickness": 0,

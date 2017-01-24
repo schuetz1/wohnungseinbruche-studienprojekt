@@ -9,7 +9,7 @@ var chart =   AmCharts.makeChart("wochentage",
             "backgroundColor": "#763B3B",
             "fontFamily": "lato",
             "fontSize": 10,
-            "decimalSeparator": ".",
+            "decimalSeparator": ",",
             "precision": 1,
             "categoryAxis": {
                 "gridPosition": "start",
@@ -31,7 +31,7 @@ var chart =   AmCharts.makeChart("wochentage",
                     "lineColorField": "color",
                     "title": "graph 1",
                     "type": "column",
-                    "valueField": "column-1"
+                    "valueField": "column-1",
                 }
             ],
             "guides": [],
@@ -44,6 +44,7 @@ var chart =   AmCharts.makeChart("wochentage",
                     "maximumDate": "",
                     "minimum": 14,
                     "axisThickness": 0,
+                    "decimalSeparator": ",",
                     "color": "#FFFFFF",
                     "gridColor": "#FFFFFF",
                     "showFirstLabel": false,
@@ -97,7 +98,7 @@ var chart =   AmCharts.makeChart("wochentage",
                 {
                     "category": "Sa",
                     "column-1": "19.2",
-                    "color": "#4aa6c0"
+                    "color": "#FFFFFF"
                 },
                 {
                     "category": "So",
