@@ -66,7 +66,7 @@ $(function() {
             y: 0,
             floating: false,
             lang: {
-                thousandsSep: ','
+                thousandsSep: '.'
             },
             backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || ''
         },
