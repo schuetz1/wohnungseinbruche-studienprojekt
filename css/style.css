@@ -149,6 +149,12 @@ h5{
 }
 h6{
     font-size: 12px;
+    padding-top: 160px;
+}
+
+.right-text{
+
+    text-align: right;
 }
 .img-responsive{
     margin: 0 auto;
@@ -793,7 +799,7 @@ footer p a,footer p a:hover,footer p a:focus {
     position: relative;
     z-index: 1;
     overflow: hidden;
-    background-image: url(../img/dieb_verlauf.jpg);
+    background-image: url(../img/dieb_nrw_neu.jpg);
     background-size: auto 830px;
 
 }
@@ -911,6 +917,7 @@ footer p a,footer p a:hover,footer p a:focus {
 .counter {
   font-size:150px;
     color: #FFFFFF;
+    padding-left: 720px;
 }
 
 /* Einbrueche ---------------------------------------------------------------- */
