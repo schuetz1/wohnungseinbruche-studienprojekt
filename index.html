@@ -222,14 +222,14 @@
                         <h1 class="country_text" style="margin-top:15px">Aus welchen Ländern stammen die
                         Tatverdächtigen?</h1>
                     <h4 class="country_text">Durch das Auswählen eines
-                        Landes sehen Sie die Entwicklung über die Jahre.</h4>
+                        Landes sehen Sie farblich gekennzeichnet die Entwicklung über die Jahre.</h4>
                     <div id="select_year">
                         <div class="btn-group" role="group" aria-label="...">
-                            <button type="button" class="btn btn-default" onclick="setDataset(0);"> 2011</button>
-                            <button type="button" class="btn btn-default" onclick="setDataset(1);"> 2012</button>
-                            <button type="button" class="btn btn-default" onclick="setDataset(2);"> 2013</button>
-                            <button type="button" class="btn btn-default" onclick="setDataset(3);"> 2014</button>
-                            <button type="button" class="btn btn-default" onclick="setDataset(4);"> 2015</button>
+                            <button type="button" class="btn btn-default" onclick="setDataset(0) & clearBox('placeholder');"> 2011</button>
+                            <button type="button" class="btn btn-default" onclick="setDataset(1)& clearBox('placeholder');"> 2012</button>
+                            <button type="button" class="btn btn-default" onclick="setDataset(2)& clearBox('placeholder');"> 2013</button>
+                            <button type="button" class="btn btn-default" onclick="setDataset(3)& clearBox('placeholder');"> 2014</button>
+                            <button type="button" class="btn btn-default" onclick="setDataset(4)& clearBox('placeholder');"> 2015</button>
                         </div>
 
                     </div>
@@ -676,6 +676,10 @@
         $('[data-toggle="tooltip"]').tooltip();
     });
 
+
+    function clearBox(id){
+        document.getElementById(id).innerHTML = '';
+    }
     function replace2015() {
         document.getElementById("div1").style.display = "block";
         document.getElementById("div2").style.display = "none";
