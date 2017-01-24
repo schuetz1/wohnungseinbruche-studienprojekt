@@ -30,7 +30,7 @@ $(function () {
             min: 0,
             title: {
 
-                text: 'Anzahl der Fälle',
+                text: 'Anzahl der Einbrüche',
                 align: 'middle',
                 style: {
                     color: '#fff'
@@ -44,7 +44,7 @@ $(function () {
             }
         },
         tooltip: {
-            valueSuffix: ' Fälle'
+            valueSuffix: ' Einbrüche'
         },
         plotOptions: {
             column: {
