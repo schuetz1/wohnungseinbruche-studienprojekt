@@ -1207,7 +1207,7 @@ a.right.carousel-control{
 #inner-circle {
     color: #fff;
     padding: 10px 5px;
-    font-style: italic;
+    font-family: Lato;
     margin: 0 30px;
     font-size: 12px;
     border-top: 1px solid rgba(255,255,255,0.5);
@@ -1295,6 +1295,7 @@ a.right.carousel-control{
     margin-top: 55px;
     font-size: 35px;
     color: white;
+    font-family: Lato;
 }
 
 .highcharts-title{
