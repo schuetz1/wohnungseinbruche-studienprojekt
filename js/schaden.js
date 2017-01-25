@@ -44,7 +44,13 @@ $(function () {
             }
         },
         tooltip: {
-            valueSuffix: ' Einbrüche'
+            backgroundColor:'#fff',
+            borderWidth:0,
+            formatter: function() {
+                return this.y + '<b> Einbrüche </b> ';
+            },
+            valueSuffix: ' Einbrüche',
+
         },
         plotOptions: {
             column: {

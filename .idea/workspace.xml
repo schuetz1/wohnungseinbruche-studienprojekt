@@ -35,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="country_map.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="schaden.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/schaden.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6039604">
+              <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="country_map.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/country_map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6782178">
-              <caret line="541" column="33" selection-start-line="541" selection-start-column="33" selection-end-line="541" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="558" column="18" selection-start-line="558" selection-start-column="18" selection-end-line="558" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -63,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/js/monate.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="66" selection-end-column="14" />
+              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -132,13 +142,13 @@
         <option value="$PROJECT_DIR$/js/highcharts.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/js/monate.js" />
-        <option value="$PROJECT_DIR$/js/schaden.js" />
         <option value="$PROJECT_DIR$/js/fall.js" />
         <option value="$PROJECT_DIR$/js/alter.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/einbrueche.js" />
         <option value="$PROJECT_DIR$/js/country_map.js" />
+        <option value="$PROJECT_DIR$/js/schaden.js" />
       </list>
     </option>
   </component>
@@ -813,11 +823,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/schaden.js">
+    <entry file="file://$PROJECT_DIR$/js/einbrueche.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="43" />
-          <folding />
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <marker date="1485366705000" expanded="true" signature="2290:2304" placeholder="..." />
+            <marker date="1485366705000" expanded="true" signature="2620:2634" placeholder="..." />
+            <marker date="1485366705000" expanded="true" signature="3026:3040" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -835,27 +849,23 @@
     <entry file="file://$PROJECT_DIR$/js/monate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="66" selection-end-column="14" />
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/einbrueche.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="28" selection-end-column="6" />
-          <folding>
-            <marker date="1485366705000" expanded="true" signature="2290:2304" placeholder="..." />
-            <marker date="1485366705000" expanded="true" signature="2620:2634" placeholder="..." />
-            <marker date="1485366705000" expanded="true" signature="3026:3040" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/country_map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6782178">
-          <caret line="541" column="33" selection-start-line="541" selection-start-column="33" selection-end-line="541" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="558" column="18" selection-start-line="558" selection-start-column="18" selection-end-line="558" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/schaden.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6039604">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
           <folding />
         </state>
       </provider>
