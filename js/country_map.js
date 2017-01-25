@@ -538,6 +538,17 @@ var map = AmCharts.makeChart( "chartdiv", {
     },
     "mouseWheelZoomEnabled": false,
 
+    "balloon": {
+        "adjustBorderColor": true,
+        "borderThickness": 0,
+        "disableMouseEvents": false,
+        "fillAlpha": 1,
+        "fontSize": 11,
+        "pointerWidth": 7,
+        "color":"#FFFFFF",
+        "fillColor": "#666666"
+    },
+
     "legend": {
         "equalWidths": true,
         "backgroundAlpha": 0.7,
@@ -896,6 +907,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fontFamliy":'Lato',
@@ -935,6 +956,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fontFamily":"Lato",
@@ -976,6 +1007,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fontFamily":"Lato",
@@ -1015,6 +1056,16 @@ map.addListener("clickMapObject", function(event){
             }],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [{
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1054,6 +1105,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1094,6 +1155,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1133,6 +1204,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1172,6 +1253,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1212,6 +1303,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1250,6 +1351,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1289,6 +1400,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1328,6 +1449,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1367,6 +1498,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1407,6 +1548,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1446,6 +1597,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1485,6 +1646,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1524,6 +1695,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1563,6 +1744,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
@@ -1601,6 +1792,16 @@ map.addListener("clickMapObject", function(event){
             } ],
             "gridAboveGraphs": true,
             "startDuration": 1,
+            "balloon": {
+                "adjustBorderColor": false,
+                "borderThickness": 0,
+                "disableMouseEvents": false,
+                "fillAlpha": 1,
+                "fontSize": 11,
+                "pointerWidth": 7,
+                "color":"#FFFFFF",
+                "fillColor": "#666666"
+            },
             "graphs": [ {
                 "balloonText": "[[year]]: <b>[[value]]</b> Täter",
                 "fillColors":"#666666",
