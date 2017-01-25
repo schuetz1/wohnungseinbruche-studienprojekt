@@ -17,6 +17,16 @@ var chart = AmCharts.makeChart("einbrueche", {
         "markerSize": 10,
         "align": "center"
     },
+    "balloon": {
+        "adjustBorderColor": true,
+        "borderThickness": 0,
+        "disableMouseEvents": false,
+        "fillAlpha": 1,
+        "fontSize": 11,
+        "pointerWidth": 7,
+        "color":"#FFFFFF",
+        "fillColor": "#666666"
+    },
     "dataProvider": [{
         "value": "2006",
         "Einbrüche": 37686,
