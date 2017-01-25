@@ -47,7 +47,8 @@ $(function () {
             backgroundColor:'#fff',
             borderWidth:0,
             formatter: function() {
-                return this.y + '<b> Einbrüche </b> ';
+                return '<b>'+ this.series.name + '</b>' + ' Schaden'+ '<br>' +
+                '<b>' +this.y + '</b>' + ' Einbrüche';
             },
             valueSuffix: ' Einbrüche',
 
@@ -76,39 +77,39 @@ $(function () {
             enabled: false
         },
         series: [ {
-            name: '0-50€',
+            name: '0-50 €',
             data:[1270,1234,1511,1515,1470,1762,1731,1937,1914,2264],
             color:'#fff'
         }, {
-            name: '50-250€',
+            name: '50-250 €',
             data:[3335,3099,3019,3006,3120,3414,3387,3292,3333,3731],
             color: "#b9c4c6"
         }, {
-            name: '250-500€',
+            name: '250-500 €',
             data:[2211,2088,1967,2016,2202,2452,2521,2457,2408,2860],
             color: "#b9e3ed"
         }, {
-            name: '500-2.500€',
+            name: '500-2.500 €',
             data:[7951,7953,8786,9655,10745,11553,11389,10737,12370],
             visible: false,
             color: '#66cccc'
         }, {
-            name: '2.500- 5.000€',
+            name: '2.500- 5.000 €',
             data:[3489,3322,3097,3497,3933,4476,4978,4855,4319,5071],
             visible: false,
             color: '#68c3d8'
         }, {
-            name: '5.000 -25.000€',
+            name: '5.000 -25.000 €',
             data:[4685,4556,4812,5260,5746,6550,7109,7039,6353,7497],
             visible: false,
             color:'#4aa6c0'
         }, {
-            name: '25.000 - 50.000€',
+            name: '25.000 - 50.000 €',
             data:[493,531,559,694,716,834,875,925,829,924],
             visible: false,
             color:'#113841'
         }, {
-            name: '50.000€+',
+            name: '50.000 €+',
             data: [197,196,233,255,320,346,299,337,379,393],
             visible: false,
             color: '#000'
