@@ -64,8 +64,11 @@ $(function() {
             }
         }],
         tooltip: {
-            shared: true
+            shared: false,
+            backgroundColor:'#fff',
+            borderWidth:0
         },
+
         legend: {
             layout: 'horizontal',
             align: 'left',
@@ -111,7 +114,9 @@ $(function() {
             data:[23696, 22977, 23151, 25029, 27162, 30579, 32453, 32231, 30272, 35128],
 
             tooltip: {
-                valueSuffix: ' Einbrüche'
+                valueSuffix: ' Einbrüche',
+                backgroundColor:'#fff',
+                borderWidth:0,
             }
         }
         ]
