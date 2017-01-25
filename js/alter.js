@@ -54,7 +54,7 @@ $(document).ready(function () {
             backgroundColor:'#fff',
             borderWidth:0,
             formatter: function () {
-                return '<b>' + this.series.name + ' Täter'+ '</b>' + ': ' + this.y + '<br/>';
+                return '<b>'+this.y +' </b>'+ this.series.name + ' Täter';
 
             },
 
