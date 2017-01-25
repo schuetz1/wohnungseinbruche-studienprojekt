@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01296fc7-19a4-4de7-bde2-6a9015c45d8a" name="Default" comment="Täterfakten Änderungen">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webdesign3.iml" afterPath="$PROJECT_DIR$/.idea/webdesign3.iml" />
+    <list default="true" id="01296fc7-19a4-4de7-bde2-6a9015c45d8a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -29,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="682" column="33" lean-forward="false" selection-start-line="682" selection-start-column="25" selection-end-line="682" selection-end-column="33" />
+              <caret line="314" column="88" lean-forward="false" selection-start-line="314" selection-start-column="88" selection-end-line="314" selection-end-column="88" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -121,7 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ch-info</find>
       <find>zoom</find>
       <find>zoomChart</find>
       <find>hover</find>
@@ -151,6 +149,7 @@
       <find>inner</find>
       <find>data-interval</find>
       <find>carousel</find>
+      <find>fakt</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\webdesign3\js</dir>
@@ -319,7 +318,7 @@
       <workItem from="1485296853144" duration="63000" />
       <workItem from="1485356649549" duration="3970000" />
       <workItem from="1485376747452" duration="674000" />
-      <workItem from="1485378669095" duration="1765000" />
+      <workItem from="1485378669095" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="css für section-zero angepasst">
       <created>1484261110736</created>
@@ -489,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485377029006</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Autoscroll bei Carousel deaktiviert">
+      <created>1485380451763</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1485380451763</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65367000" />
+    <option name="totallyTimeSpent" value="65558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="3862" height="2136" extended-state="6" />
@@ -602,7 +608,8 @@
     <MESSAGE value="Mouse scroll deaktiviert" />
     <MESSAGE value="Einbruchschart bearbeitet" />
     <MESSAGE value="Tooltipps in Einbruchschart eingefügt, style Formatierungen für Tooltip, Legenden Icons abgerundet an 2 Charts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tooltipps in Einbruchschart eingefügt, style Formatierungen für Tooltip, Legenden Icons abgerundet an 2 Charts" />
+    <MESSAGE value="Autoscroll bei Carousel deaktiviert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autoscroll bei Carousel deaktiviert" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -927,7 +934,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="682" column="33" lean-forward="false" selection-start-line="682" selection-start-column="25" selection-end-line="682" selection-end-column="33" />
+          <caret line="314" column="88" lean-forward="false" selection-start-line="314" selection-start-column="88" selection-end-line="314" selection-end-column="88" />
           <folding>
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
