@@ -84,7 +84,7 @@ var chart = AmCharts.makeChart("einbrueche", {
     }],
     "startDuration": 1,
     "graphs": [{
-        "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
+        "balloonText": "<span style='font-size:14px'><b>[[value]]</b> [[title]]</span>",
         "fillAlphas": 0.8,
         "lineAlpha": 0.3,
         "title": "Einbrüche",
@@ -94,7 +94,7 @@ var chart = AmCharts.makeChart("einbrueche", {
         "lineColor": "#4aa6c0"
 
     }, {
-        "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
+        "balloonText": "<span style='font-size:14px'><b>[[value]]</b> [[title]]</span>",
         "fillAlphas": 0.8,
         "lineAlpha": 0.3,
         "title": "Versuchte Einbrüche",
@@ -106,7 +106,7 @@ var chart = AmCharts.makeChart("einbrueche", {
         "lineColor": "#113841"
 
     }, {
-        "balloonText": "<b>[[title]]</b><br><span style='font-size:14px'>[[category]]: <b>[[value]]</b></span>",
+        "balloonText": "<span style='font-size:14px'><b>[[value]]</b> [[title]]</span>",
         "fillAlphas": 0,
         "lineAlpha": 1,
         "title": "Aufklärungsquote",
