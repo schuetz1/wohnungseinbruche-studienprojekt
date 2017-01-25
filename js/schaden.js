@@ -61,6 +61,7 @@ $(function () {
             }
         },
         legend: {
+            fontFamily: 'Lato',
             layout: 'horizontal',
             verticalAlign: 'bottom',
             x: 30,

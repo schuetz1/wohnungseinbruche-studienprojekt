@@ -1298,3 +1298,7 @@ a.right.carousel-control{
 .amChartsLegend.amcharts-legend-div{
     width: 689px;
 }
+
+g.highcharts-legend{
+    font-family: Lato;
+}
