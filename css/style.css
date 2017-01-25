@@ -1074,6 +1074,7 @@ a.right.carousel-control{
     display: block;
     text-align: center;
     width: 100%;
+
 }
 
 .ch-grid:after,
@@ -1091,6 +1092,7 @@ a.right.carousel-control{
     height: 220px;
     display: inline-block;
     margin: 20px;
+
 }
 
 .ch-item {
@@ -1098,7 +1100,7 @@ a.right.carousel-control{
     height: 100%;
     border-radius: 50%;
     position: relative;
-    box-shadow: 0 3px 20px 7px rgba(8, 15, 19, 1);
+    box-shadow: 0 3px 20px 7px #a3a3a3;
     cursor: default;
 }
 
@@ -1290,7 +1292,7 @@ a.right.carousel-control{
 }
 
 #altersgruppe-abstand {
-    margin-top: 70px;
+    margin-top: 52px;
 }
 
 .amChartsLegend.amcharts-legend-div{

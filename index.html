@@ -68,7 +68,7 @@
                     <li><a class="page-scroll" href="#section-one">Tatzeiten</a></li>
                     <li><a class="page-scroll" href="#section-two">Herkunft</a></li>
                     <li><a class="page-scroll" href="#section-three">Einbruchsschaden</a></li>
-                    <li><a class="page-scroll" href="#section-nine">Fakten zu Tätern</a></li>
+                    <li><a class="page-scroll" href="#section-nine">Fakten zu Täter</a></li>
                     <li><a class="page-scroll" href="#section-eight">Alter</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -77,6 +77,7 @@
     </nav>
 </header><!-- Header end -->
 <!--Fakten -->
+
 <section id="facts">
     <div class="container headline">
         <div class="row relative">
@@ -295,6 +296,7 @@
         </div><!-- row end -->
     </div><!-- container end -->
 </section><!-- intro end -->
+
 <section id="section-nine">
     <div class="container">
         <div class="row relative">
@@ -377,328 +379,274 @@
 <section id="section-eight">
     <div class="container">
         <div class="row relative">
-            <div class="item">
-                <div class="text-center">
-                    <h1>Wie alt sind die Täter?</h1>
-                    <h4>sortiert nach Deutsche - und Nicht-Deutsche</h4>
-                    <div class="btn-group" role="group">
-
-                        <button type="button" class="btn btn-default" onclick="show('id1');">Deutsch / Nicht-Deutsch</button>
-                        <button type="button" class="btn btn-default" onclick="show('id2');">Altersgruppen</button>
+            <div id="carousel3" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <!--Slider Alter-------------------------------------------------------------------->
+                    <div class="item active">
+                        <div class="text-center">
+                            <h1 class="white">Wie alt sind die Täter?</h1>
+                            <h4 class="white">Sortiert nach Deutsche - und Nicht-Deutsche</h4>
+                            <div id="alter" style="width:1000px; height:465px; margin-left:100px;"></div>
+                        </div>
                     </div>
-                    <div id="id1"><div id="alter" style="width:1000px; height:450px; margin-left:100px;"></div></div>
-                    <div id="id2"  style="display:none">
-                        <div class="item">
-                            <div class="text-center">
-                                <div id="div1" class="altersgruppe" style="display:block">
-                                    <p class="gesamttaeter">Gesamttäter: 5.791 im Jahr 2015</p>
-                                    <div class="row">
-                                        <div class="col-md-3 kind">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2015 waren 92 Täter Kinder">
-                                                <img src="img/1,5prozent-2015.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 70px;
-                                     margin-left: 44px;"/></a>
-                                            <p style="margin-left:60px;">Kinder</p>
-                                        </div>
-                                        <div class="col-md-3 jugendliche">
-                                            <a
-                                                    data-toggle="tooltip"
-                                                    data-placement="right"
-                                                    title="Im Jahr 2015 waren 708 Täter Jugendliche">
-                                                <img src="img/12,2prozent-2015.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 80px;"/></a>
-                                            <p>Jugendliche</p>
-                                        </div>
-                                        <div class="col-md-3 heranwachsende">
-                                            <a
-                                                    data-toggle="tooltip"
-                                                    data-placement="right"
-                                                    title="Im Jahr 2015 waren 787 Täter Heranwachsende">
-                                                <img src="img/13,59prozent-2015.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 95px;"/></a>
-                                            <p>Heranwachsende</p>
-                                        </div>
-                                        <div class="col-md-3 erwachsener">
-                                            <a
-                                                    data-toggle="tooltip"
-                                                    data-placement="right"
-                                                    title="Im Jahr 2015 waren 2024 Täter Erwachsene">
-                                                <img src="img/Erwachsener-2015.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 115px;"/></a>
-                                            <p>Erwachsene</p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div id="altersgruppe-abstand" class="btn-group-vertical" role="group">
-                                                <button type="button" class="btn btn-default" onclick="replace2011();return false">
-                                                    2011</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2012();return false">
-                                                    2012</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2013();return false">
-                                                    2013</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2014();return false">
-                                                    2014</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2015();return false">
-                                                    2015</button>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <!--Slider Altersgruppen--------------------------------------------------------------->
+                    <div class="item">
+                        <div class="text-center">
+                            <h1 class="white">Täter sortiert nach Altersgruppen</h1>
+                            <div class="row" id="altersgruppe-abstand">
+                                <div class="btn-group" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default" onclick="replace2011();return false"/>
+                                    2011</button>
+                                    <button type="button" class="btn btn-default" onclick="replace2012();return false"/>
+                                    2012</button>
+                                    <button type="button" class="btn btn-default" onclick="replace2013();return false"/>
+                                    2013</button>
+                                    <button type="button" class="btn btn-default" onclick="replace2014();return false"/>
+                                    2014</button>
+                                    <button type="button" class="btn btn-default" onclick="replace2015();return false"/>
+                                    2015</button>
                                 </div>
-                                <!--Altersgruppen 2014-->
-                                <div id="div2" class="altersgruppe" style="display:none">
-                                    <p class="gesamttaeter">Gesamttäter: 5.197 im Jahr 2014</p>
-                                    <div class="row">
-                                        <div class="col-md-3 kind">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2014 waren 95 Täter Kinder">
-                                                <img src="img/1,8prozent-2014.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 70px;
-                                     margin-left: 44px;"/></a>
-                                            <p style="margin-left:60px;">Kinder</p>
-                                        </div>
-                                        <div class="col-md-3 jugendliche">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2014 waren 584 Täter Jugendliche">
-                                                <img src="img/11,2prozent-2014.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 80px;"/></a>
-                                            <p>Jugendliche</p>
-                                        </div>
-                                        <div class="col-md-3 heranwachsende">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2014 waren 749 Täter Heranwachsende">
-                                                <img src="img/14,4prozent-2014.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 95px;"/></a>
-                                            <p>Heranwachsende</p>
-                                        </div>
-                                        <div class="col-md-3 erwachsener">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2014 waren 3.769 Täter Erwachsene">
-                                                <img src="img/Erwachsener-2014.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 115px;"/></a>
-                                            <p>Erwachsene</p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div id="altersgruppe-abstand" class="btn-group-vertical" role="group">
-                                                <button type="button" class="btn btn-default" onclick="replace2011();return false">
-                                                    2011</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2012();return false">
-                                                    2012</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2013();return false">
-                                                    2013</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2014();return false">
-                                                    2014</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2015();return false">
-                                                    2015</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Altersgruppen 2013-->
-                                <div id="div3" class="altersgruppe" style="display:none">
-                                    <p class="gesamttaeter">Gesamttäter: 5.282 im Jahr 2013</p>
-                                    <div class="row">
-                                        <div class="col-md-3 kind">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2013 waren 112 Täter Kinder">
-                                                <img src="img/1,5prozent-2015.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 70px;
-                                     margin-left: 44px;"/></a>
-                                            <p style="margin-left:60px;">Kinder</p>
-                                        </div>
-                                        <div class="col-md-3 jugendliche">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2013 waren 693 Täter Jugendliche">
-                                                <img src="img/12,2prozent-2015.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 80px;"/></a>
-                                            <p>Jugendliche</p>
-                                        </div>
-                                        <div class="col-md-3 heranwachsende">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2013 waren 844 Täter Heranwachsende">
-                                                <img src="img/13,59prozent-2015.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 95px;"/></a>
-                                            <p>Heranwachsende</p>
-                                        </div>
-                                        <div class="col-md-3 erwachsener">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2013 waren 3.633 Täter Erwachsene">
-                                                <img src="img/Erwachsener-2015.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 115px;"/></a>
-                                            <p>Erwachsene</p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div id="altersgruppe-abstand" class="btn-group-vertical" role="group">
-                                                <button type="button" class="btn btn-default" onclick="replace2011();return false">
-                                                    2011</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2012();return false">
-                                                    2012</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2013();return false">
-                                                    2013</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2014();return false">
-                                                    2014</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2015();return false">
-                                                    2015</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Altersgruppen 2012-->
-                                <div id="div4" class="altersgruppe" style="display:none">
-                                    <p class="gesamttaeter">Gesamttäter: 5.236 im Jahr 2012</p>
-                                    <div class="row">
-                                        <div class="col-md-3 kind">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2012 waren 115 Täter Kinder">
-                                                <img src="img/1,5prozent-2015.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 70px;
-                                     margin-left: 44px;"/></a>
-                                            <p style="margin-left:60px;">Kinder</p>
-                                        </div>
-                                        <div class="col-md-3 jugendliche">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2012 waren 718 Täter Jugendliche">
-                                                <img src="img/12,2prozent-2015.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 80px;"/></a>
-                                            <p>Jugendliche</p>
-                                        </div>
-                                        <div class="col-md-3 heranwachsende">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2012 waren 872 Täter Heranwachsende">
-                                                <img src="img/13,59prozent-2015.jpg"
-                                                     class="img-responsive logo"
-                                                     style="width: 95px;"/></a>
-                                            <p>Heranwachsende</p>
-                                        </div>
-                                        <div class="col-md-3 erwachsener">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2012 waren 3.531 Täter Erwachsene">
-                                                <img src="img/Erwachsener-2015.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 115px;"/></a>
-                                            <p>Erwachsene</p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div id="altersgruppe-abstand" class="btn-group-vertical" role="group">
-                                                <button type="button" class="btn btn-default" onclick="replace2011();return false">
-                                                    2011</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2012();return false">
-                                                    2012</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2013();return false">
-                                                    2013</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2014();return false">
-                                                    2014</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2015();return false">
-                                                    2015</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--Altersgruppe 2011-->
-                                <div id="div5" class="altersgruppe" style="display:none">
-                                    <p class="gesamttaeter">Gesamttäter: 5.419 im Jahr 2011</p>
-                                    <div class="row">
-                                        <div class="col-md-3 kind">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2011 waren 135 Täter Kinder">
-                                                <img src="img/1,8prozent-2014.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 70px;
-                                     margin-left: 44px;"/></a>
-                                            <p style=" margin-left:60px;">Kinder</p>
-                                        </div>
-                                        <div class="col-md-3 jugendliche">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2011 waren 859 Täter Jugendliche">
-                                                <img src="img/11,2prozent-2014.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 80px;"/></a>
-                                            <p>Jugendliche</p>
-                                        </div>
-                                        <div class="col-md-3 heranwachsende">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2011 waren 979 Täter Heranwachsende">
-                                                <img src="img/14,4prozent-2014.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 95px;"/></a>
-                                            <p>Heranwachsende</p>
-                                        </div>
-                                        <div class="col-md-3 erwachsener">
-                                            <a data-toggle="tooltip"
-                                               data-placement="right"
-                                               title="Im Jahr 2011 waren 3.446 Täter Erwachsene">
-                                                <img src="img/Erwachsener-2014.png"
-                                                     class="img-responsive logo"
-                                                     style="width: 115px;"/></a>
-                                            <p>Erwachsene</p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div id="altersgruppe-abstand" class="btn-group-vertical" role="group">
-                                                <button type="button" class="btn btn-default" onclick="replace2011();return false">
-                                                    2011</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2012();return false">
-                                                    2012</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2013();return false">
-                                                    2013</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2014();return false">
-                                                    2014</button>
-                                                <button type="button" class="btn btn-default" onclick="replace2015();return false">
-                                                    2015</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
                             </div>
 
+                            <div id="div1" class="altersgruppe" style="display:block">
+                                <p class="gesamttaeter">Gesamttäter: 5.791 im Jahr 2015</p>
+                                <div class="row">
+                                    <div class="col-md-3 kind">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2015 waren 92 Täter Kinder">
+                                            <img src="img/1,5prozent-2015.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 70px;
+                                     margin-left: 44px;"/></a>
+                                        <p style="color: white; margin-left:60px;">Kinder</p>
+                                    </div>
+                                    <div class="col-md-3 jugendliche">
+                                        <a
+                                                data-toggle="tooltip"
+                                                data-placement="right"
+                                                title="Im Jahr 2015 waren 708 Täter Jugendliche">
+                                            <img src="img/12,2prozent-2015.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 80px;"/></a>
+                                        <p style="color: white;">Jugendliche</p>
+                                    </div>
+                                    <div class="col-md-3 heranwachsende">
+                                        <a
+                                                data-toggle="tooltip"
+                                                data-placement="right"
+                                                title="Im Jahr 2015 waren 787 Täter Heranwachsende">
+                                            <img src="img/14,4prozent-2014.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 95px;"/></a>
+                                        <p style="color: white;">Heranwachsende</p>
+                                    </div>
+                                    <div class="col-md-3 erwachsener">
+                                        <a
+                                                data-toggle="tooltip"
+                                                data-placement="right"
+                                                title="Im Jahr 2015 waren 2024 Täter Erwachsene">
+                                            <img src="img/Erwachsener-2015.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 115px;"/></a>
+                                        <p style="color: white;">Erwachsene</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Altersgruppen 2014-->
+                            <div id="div2" class="altersgruppe" style="display:none">
+                                <p class="gesamttaeter">Gesamttäter: 5.197 im Jahr 2014</p>
+                                <div class="row">
+                                    <div class="col-md-3 kind">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2014 waren 95 Täter Kinder">
+                                            <img src="img/1,8prozent-2014.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 70px;
+                                     margin-left: 44px;"/></a>
+                                        <p style="color: white; margin-left:60px;">Kinder</p>
+                                    </div>
+                                    <div class="col-md-3 jugendliche">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2014 waren 584 Täter Jugendliche">
+                                            <img src="img/11,2prozent-2014.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 80px;"/></a>
+                                        <p style="color: white;">Jugendliche</p>
+                                    </div>
+                                    <div class="col-md-3 heranwachsende">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2014 waren 749 Täter Heranwachsende">
+                                            <img src="img/14,4prozent-2014.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 95px;"/></a>
+                                        <p style="color: white;">Heranwachsende</p>
+                                    </div>
+                                    <div class="col-md-3 erwachsener">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2014 waren 3.769 Täter Erwachsene">
+                                            <img src="img/Erwachsener-2014.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 115px;"/></a>
+                                        <p style="color: white;">Erwachsene</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Altersgruppen 2013-->
+                            <div id="div3" class="altersgruppe" style="display:none">
+                                <p class="gesamttaeter">Gesamttäter: 5.282 im Jahr 2013</p>
+                                <div class="row">
+                                    <div class="col-md-3 kind">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2013 waren 112 Täter Kinder">
+                                            <img src="img/1,5prozent-2015.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 70px;
+                                     margin-left: 44px;"/></a>
+                                        <p style="color: white; margin-left:60px;">Kinder</p>
+                                    </div>
+                                    <div class="col-md-3 jugendliche">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2013 waren 693 Täter Jugendliche">
+                                            <img src="img/12,2prozent-2015.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 80px;"/></a>
+                                        <p style="color: white;">Jugendliche</p>
+                                    </div>
+                                    <div class="col-md-3 heranwachsende">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2013 waren 844 Täter Heranwachsende">
+                                            <img src="img/14,4prozent-2014.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 95px;"/></a>
+                                        <p style="color: white;">Heranwachsende</p>
+                                    </div>
+                                    <div class="col-md-3 erwachsener">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2013 waren 3.633 Täter Erwachsene">
+                                            <img src="img/Erwachsener-2015.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 115px;"/></a>
+                                        <p style="color: white;">Erwachsene</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Altersgruppen 2012-->
+                            <div id="div4" class="altersgruppe" style="display:none">
+                                <p class="gesamttaeter">Gesamttäter: 5.236 im Jahr 2012</p>
+                                <div class="row">
+                                    <div class="col-md-3 kind">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2012 waren 115 Täter Kinder">
+                                            <img src="img/1,5prozent-2015.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 70px;
+                                     margin-left: 44px;"/></a>
+                                        <p style="color: white; margin-left:60px;">Kinder</p>
+                                    </div>
+                                    <div class="col-md-3 jugendliche">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2012 waren 718 Täter Jugendliche">
+                                            <img src="img/12,2prozent-2015.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 80px;"/></a>
+                                        <p style="color: white;">Jugendliche</p>
+                                    </div>
+                                    <div class="col-md-3 heranwachsende">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2012 waren 872 Täter Heranwachsende">
+                                            <img src="img/14,4prozent-2014.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 95px;"/></a>
+                                        <p style="color: white;">Heranwachsende</p>
+                                    </div>
+                                    <div class="col-md-3 erwachsener">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2012 waren 3.531 Täter Erwachsene">
+                                            <img src="img/Erwachsener-2015.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 115px;"/></a>
+                                        <p style="color: white;">Erwachsene</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Altersgruppe 2011-->
+                            <div id="div5" class="altersgruppe" style="display:none">
+                                <p class="gesamttaeter">Gesamttäter: 5.419 im Jahr 2011</p>
+                                <div class="row">
+                                    <div class="col-md-3 kind">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2011 waren 135 Täter Kinder">
+                                            <img src="img/1,8prozent-2014.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 70px;
+                                     margin-left: 44px;"/></a>
+                                        <p style="color: white; margin-left:60px;">Kinder</p>
+                                    </div>
+                                    <div class="col-md-3 jugendliche">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2011 waren 859 Täter Jugendliche">
+                                            <img src="img/11,2prozent-2014.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 80px;"/></a>
+                                        <p style="color: white;">Jugendliche</p>
+                                    </div>
+                                    <div class="col-md-3 heranwachsende">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2011 waren 979 Täter Heranwachsende">
+                                            <img src="img/14,4prozent-2014.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 95px;"/></a>
+                                        <p style="color: white;">Heranwachsende</p>
+                                    </div>
+                                    <div class="col-md-3 erwachsener">
+                                        <a data-toggle="tooltip"
+                                           data-placement="right"
+                                           title="Im Jahr 2011 waren 3.446 Täter Erwachsene">
+                                            <img src="img/Erwachsener-2014.png"
+                                                 class="img-responsive logo"
+                                                 style="width: 115px;"/></a>
+                                        <p style="color: white;">Erwachsene</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-
                     </div>
                 </div>
-
+                <a class="left carousel-control" href="#carousel3" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel3" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
 
             </div>
-
-
-
         </div><!-- row end -->
     </div><!-- container end -->
 </section><!-- intro end -->
-
 <!--Footer -->
+
 <section id="section-four">
     <div class="container">
         <div class="row relative">
@@ -738,8 +686,9 @@
 <script src="js/schaden.js"></script>
 <script src="js/fall.js"></script>
 <script src="js/alter.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/jquery.spincrement.js"></script>
 <script src="js/modernizr.custom.79639.js"></script>
 <script>
