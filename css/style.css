@@ -1052,6 +1052,21 @@ a.right.carousel-control{
     padding-top: 20px;
 }
 
+#left .tooltip-inner {
+    width: 220px;
+    height: 100px;
+    padding-top: 20px;
+}
+#middle .tooltip-inner {
+    width: 220px;
+    height: 100px;
+    padding-top: 20px;
+}
+#right .tooltip-inner {
+    width: 220px;
+    height: 180px;
+    padding-top: 20px;
+}
 .gesamttaeter{
     margin-right: 200px;
     color: white;
@@ -1278,7 +1293,7 @@ a.right.carousel-control{
 
 #outer-circle{
     margin-top: 31px;
-    font-size: 57px;
+    font-size: 35px;
     color: white;
 }
 

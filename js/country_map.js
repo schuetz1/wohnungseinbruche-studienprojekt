@@ -552,6 +552,7 @@ var map = AmCharts.makeChart( "chartdiv", {
     "legend": {
         "equalWidths": true,
         "backgroundAlpha": 0.7,
+        "markerType": "circle",
         "backgroundColor": "#FFFFFF",
         "borderColor": "#ffffff",
         "borderAlpha": 1,

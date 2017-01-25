@@ -13,8 +13,9 @@ var chart = AmCharts.makeChart("einbrueche", {
         "horizontalGap": 10,
         "maxColumns": 3,
         "position": "bottom",
-        "useGraphSettings": true,
+        "useGraphSettings": false,
         "markerSize": 10,
+        "markerType": "circle",
         "align": "center"
     },
     "balloon": {
