@@ -32,15 +32,15 @@ $(function() {
         yAxis: [
             { // Secondary yAxis
                 title: {
-                    text: 'Höhe des Schadens',
+                    text: 'Anzahl Einbrüche',
                     style: {
-                        color:'#666666'
+                        color:'transparent'
                     }
                 },
                 labels: {
                     format: "{value}€",
                     style: {
-                        color:'#666666'
+                        color:'transparent'
                     }
                 },
                 opposite: true
@@ -122,7 +122,7 @@ $(function() {
             name: 'Fallzahlen',
             type: 'line',
             color:'#4aa6c0',
-            data:[23696, 22977, 23151, 25029, 27162, 30579, 32453, 32231, 30272, 35128],
+            data:[37686, 37393, 38002, 41115, 44769, 50368, 54167, 54953, 52794, 62362],
 
             tooltip: {
                 useHTML: true,
