@@ -1024,6 +1024,11 @@ a.right.carousel-control{
     margin-top: 154px;
 }
 
+.tooltip-white .tooltip-inner{
+    color: black;
+    background-color: #ffffff;
+}
+
 .jugendliche{
     margin-top: 87px;
 }
@@ -1036,6 +1041,7 @@ a.right.carousel-control{
     width: 120px;
     height: 100px;
     padding-top: 20px;
+
 }
 
 #left-tatzeit .tooltip-inner {
@@ -1316,7 +1322,7 @@ a.right.carousel-control{
 }
 
 #altersgruppe-abstand {
-    margin-top: 52px;
+    margin-top: 34px;
 }
 
 .amChartsLegend.amcharts-legend-div{
