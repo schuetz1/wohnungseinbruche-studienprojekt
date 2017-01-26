@@ -867,8 +867,20 @@ footer p a,footer p a:hover,footer p a:focus {
     position: relative;
     z-index: 1;
     overflow: hidden;
-
 }
+#impressum {
+    height: 830px;
+    width: auto;
+    z-index: 1;
+    overflow: hidden;
+    background-image: url(../img/footer_bg.jpg);
+    background-size: auto 830px;
+}
+
+.impressum{
+    margin-top: 300px;
+}
+
 .headline{
     font-size: 150px;
 }
