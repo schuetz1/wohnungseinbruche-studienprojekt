@@ -1,8 +1,4 @@
-// JavaScript Document
-$(window).load(function () {
-    // will fade out the whole DIV that covers the website.
-    jQuery(".preloader").fadeOut("slow");
-});
+
 
 jQuery(document).ready(function ($) {
     'use strict';
@@ -100,6 +96,14 @@ function mailchimpCallback(resp) {
 }
 
 // Contact Form
+$("#select_year .btn").click(function () {
+    $("#select_year .btn").removeClass("active");
+});
+
+$("#altersgruppe-abstand .btn").click(function () {
+    $("#altersgruppe-abstand .btn").removeClass("active");
+
+});
 $(document).on('submit', '#contactForm', function (e) {
     e.preventDefault();
     var name = $("#name").val();
