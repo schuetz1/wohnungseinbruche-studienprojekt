@@ -37,9 +37,8 @@ $(function() {
                         color:'#666666'
                     }
                 },
-
                 labels: {
-                    format: '{value}€',
+                    format: "{value}€",
                     style: {
                         color:'#666666'
                     }
@@ -50,6 +49,13 @@ $(function() {
                 format: '{value}',
                 style: {
                     color: '#fff'
+                },
+                formatter: function() {
+                    if ( this.isFirst ) { return ''; }
+                    console.log(this);
+                    this.chart.series[0].name
+                        if ( this.isLast ) { return ''; }
+                    return this.value.toLocaleString();
                 }
             },
             tickInterval:null,
@@ -79,10 +85,6 @@ $(function() {
             verticalAlign: 'bottom',
             y: 0,
             floating: false,
-            lang: {
-                decimalPoint: ',',
-                thousandsSep: '.'
-            },
             backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || ''
         },
         series: [{
@@ -107,7 +109,13 @@ $(function() {
             yAxis: 1,
             data: [101089, 103304, 109278, 123239, 138482, 153712, 160171, 166270, 153600, 180813],
             tooltip: {
-                valueSuffix: ' €'
+                useHTML: true,
+                shared: false,
+                pointFormat:'<b>{point.y}</b>',
+                headerFormat: '',
+                valueSuffix: ' €',
+                backgroundColor:'#fff',
+                borderWidth:0,
             }
 
         }, {
@@ -117,6 +125,10 @@ $(function() {
             data:[23696, 22977, 23151, 25029, 27162, 30579, 32453, 32231, 30272, 35128],
 
             tooltip: {
+                useHTML: true,
+                shared: false,
+                pointFormat:'<b>{point.y}</b>',
+                headerFormat: '',
                 valueSuffix: ' Einbrüche',
                 backgroundColor:'#fff',
                 borderWidth:0,

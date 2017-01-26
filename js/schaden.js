@@ -30,7 +30,6 @@ $(function () {
         yAxis: {
             min: 0,
             title: {
-
                 text: 'Anzahl der Einbrüche',
                 align: 'middle',
                 style: {
@@ -41,6 +40,11 @@ $(function () {
                 overflow: 'justify',
                 style: {
                     color: '#fff'
+                },
+                formatter: function() {
+                    if ( this.isFirst ) { return ''; }
+                    if ( this.isLast ) { return ''; }
+                    return this.value.toLocaleString();
                 }
             }
         },
@@ -85,11 +89,13 @@ $(function () {
         }, {
             name: '50-250 €',
             data:[3335,3099,3019,3006,3120,3414,3387,3292,3333,3731],
-            color: "#b9c4c6"
+            color: "#b9c4c6",
+            visible: false
         }, {
             name: '250-500 €',
             data:[2211,2088,1967,2016,2202,2452,2521,2457,2408,2860],
-            color: "#b9e3ed"
+            color: "#b9e3ed",
+            visible: false
         }, {
             name: '500-2.500 €',
             data:[7951,7953,8786,9655,10745,11553,11389,10737,12370],
@@ -108,12 +114,10 @@ $(function () {
         }, {
             name: '25.000 - 50.000 €',
             data:[493,531,559,694,716,834,875,925,829,924],
-            visible: false,
             color:'#113841'
         }, {
             name: '50.000 €+',
             data: [197,196,233,255,320,346,299,337,379,393],
-            visible: false,
             color: '#000'
         }]
     });
