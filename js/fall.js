@@ -73,7 +73,8 @@ $(function() {
         tooltip: {
             shared: true,
             backgroundColor:'#fff',
-            borderWidth:0
+            borderWidth:0,
+            crosshairs: true
         },
 
         legend: {
@@ -114,6 +115,7 @@ $(function() {
                 headerFormat: '',
                 backgroundColor:'#fff',
                 borderWidth:0,
+                crosshairs: true
             }
 
         }, {
@@ -123,11 +125,12 @@ $(function() {
             data:[37686, 37393, 38002, 41115, 44769, 50368, 54167, 54953, 52794, 62362],
 
             tooltip: {
+                crosshairs: true,
                 useHTML: true,
                 pointFormat:'<b>{point.y}</b>'+' Einbrüche',
                 headerFormat: '',
                 backgroundColor:'#fff',
-                borderWidth:0,
+                borderWidth:0
             }
         }
         ]
