@@ -8,7 +8,8 @@ $(function () {
             backgroundColor: 'transparent',
         },
         style: {
-            fontFamily: 'Lato'
+            fontFamily: 'Lato',
+            fontSize: '14px',
         },
         title: {
             text: ''
@@ -63,6 +64,7 @@ $(function () {
         },
         legend: {
             fontFamily: 'Lato',
+            fontSize: '14px',
             layout: 'horizontal',
             verticalAlign: 'bottom',
             x: 30,

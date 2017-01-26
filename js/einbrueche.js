@@ -23,7 +23,7 @@ var chart = AmCharts.makeChart("einbrueche", {
         "borderThickness": 0,
         "disableMouseEvents": false,
         "fillAlpha": 1,
-        "fontSize": 11,
+        "fontSize": 14,
         "pointerWidth": 7,
         "color":"#FFFFFF",
         "fillColor": "#666666"

@@ -57,6 +57,7 @@ $(function() {
             title: {
                 text: 'Höhe der Schadenssumme',
                 fontFamily:'Lato',
+                fontSize: '14px',
                 style: {
                     color: '#fff'
 
@@ -70,6 +71,8 @@ $(function() {
         },
 
         legend: {
+            fontSize: '14px',
+            fontFamily: 'Lato',
             layout: 'horizontal',
             align: 'left',
             x: 480,
@@ -93,8 +96,8 @@ $(function() {
                 format: '{point.y:,.0f}€',
                 y: 10, // 10 pixels down from the top
                 style: {
-                    fontSize: '13px',
-                    fontFamily: 'Verdana, sans-serif'
+                    fontSize: '14px',
+                    fontFamily: 'Lato'
                 }
 
             },

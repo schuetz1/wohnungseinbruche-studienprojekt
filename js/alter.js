@@ -8,6 +8,7 @@ $(document).ready(function () {
         title: {
             text: 'Sortiert nach Deutsche und Nicht-Deutsche Täter',
             fontFamily: 'Lato',
+            fontSize:'14px',
             style: {
                 color: '#fff'
             }

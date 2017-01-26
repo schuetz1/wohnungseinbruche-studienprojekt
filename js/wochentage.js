@@ -8,7 +8,7 @@ var chart =   AmCharts.makeChart("wochentage",
             "startDuration": 1,
             "backgroundColor": "#763B3B",
             "fontFamily": "lato",
-            "fontSize": 10,
+            "fontSize": 14,
             "decimalSeparator": ",",
             "precision": 1,
             "categoryAxis": {
@@ -59,7 +59,7 @@ var chart =   AmCharts.makeChart("wochentage",
                 "borderThickness": 0,
                 "disableMouseEvents": false,
                 "fillAlpha": 1,
-                "fontSize": 11,
+                "fontSize": 14,
                 "pointerWidth": 7
             },
             "titles": [

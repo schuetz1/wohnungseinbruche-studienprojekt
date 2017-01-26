@@ -973,25 +973,23 @@ div .amcharts-chart-div a {
     color: #FFFFFF;
 }
 
-
-
 span.glyphicon.glyphicon-chevron-left {
-    margin-left: -100px;
     color: #ffffff;
 }
 span.glyphicon.glyphicon-chevron-right{
-    margin-right: -100px;
     color: #ffffff;
 }
 
 a.left.carousel-control {
-    width: 50px;
-    margin-left: 60px;
+    width: 25px;
 }
 
 a.right.carousel-control{
-    width: 50px;
-    margin-right: 60px;
+    width: 25px;
+}
+
+.gesamttaeter b {
+    font-size: 30px;
 }
 
 #altersgruppe-abstand {
@@ -1048,6 +1046,7 @@ a.right.carousel-control{
     color: white;
     font-size: 20px;
 }
+
 /* Täterfakten  ---------------------------------------------------------------- */
 .factcount {
     position: absolute;
@@ -1055,7 +1054,6 @@ a.right.carousel-control{
     padding-top: 100px;
     padding-left: 48px;
     z-index: 6;
-
 }
 
 .ch-grid {
@@ -1065,7 +1063,6 @@ a.right.carousel-control{
     display: block;
     text-align: center;
     width: 100%;
-
 }
 
 .ch-grid:after,
@@ -1083,7 +1080,6 @@ a.right.carousel-control{
     height: 220px;
     display: inline-block;
     margin: 20px;
-
 }
 
 .ch-item {
@@ -1100,24 +1096,19 @@ a.right.carousel-control{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-
     -webkit-perspective: 800px;
     -moz-perspective: 800px;
     -o-perspective: 800px;
     -ms-perspective: 800px;
     perspective: 800px;
-
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-
     top: 20px;
     left: 20px;
     background-color: #113841;
-
-
 }
 
 .ch-info{
@@ -1125,19 +1116,16 @@ a.right.carousel-control{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
-
 }
 
 .ch-info > div {
@@ -1147,7 +1135,6 @@ a.right.carousel-control{
     height: 100%;
     border-radius: 50%;
     background-position: center center;
-
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -o-backface-visibility: hidden;
@@ -1161,7 +1148,6 @@ a.right.carousel-control{
     -o-transform: rotate3d(0,1,0,180deg);
     -ms-transform: rotate3d(0,1,0,180deg);
     transform: rotate3d(0,1,0,180deg);
-
     background: #113841;
 }
 
@@ -1180,7 +1166,16 @@ a.right.carousel-control{
             0 1px 2px rgba(0,0,0,0.3);
 }
 
-#inner-circle {
+.inner-circle-beute {
+    color: #fff;
+    padding: 10px 5px;
+    font-family: Lato;
+    margin: 0 30px;
+    font-size: 12px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.inner-circle-fakten {
     color: #fff;
     padding: 10px 5px;
     font-family: Lato;
@@ -1203,7 +1198,6 @@ a.right.carousel-control{
 
 .ch-info p a:hover {
     color: #113841;
-
 }
 
 .ch-item:hover .ch-info-wrap {
@@ -1218,7 +1212,6 @@ a.right.carousel-control{
     -o-transform: rotate3d(0,1,0,-180deg);
     -ms-transform: rotate3d(0,1,0,-180deg);
     transform: rotate3d(0,1,0,-180deg);
-
 }
 
 .headline{
@@ -1268,11 +1261,12 @@ a.right.carousel-control{
 }
 
 #outer-circle{
-    margin-top: 55px;
-    font-size: 35px;
+    margin-top: 35px;
+    font-size: 28px;
     color: white;
     font-family: Lato;
 }
+
 
 .highcharts-title{
     display: none;

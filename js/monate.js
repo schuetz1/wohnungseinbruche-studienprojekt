@@ -18,7 +18,7 @@ var chart = AmCharts.makeChart("monate",
             "decimalSeparator": ".",
             "color": "#FFFFFF",
             "fontFamily": "lato",
-            "fontSize": 10,
+            "fontSize": 14,
             "handDrawScatter": 1,
             "categoryAxis": {
                 "forceShowField": "",
@@ -62,7 +62,7 @@ var chart = AmCharts.makeChart("monate",
                 "borderThickness": 0,
                 "disableMouseEvents": false,
                 "fillAlpha": 1,
-                "fontSize": 11,
+                "fontSize": 14,
                 "pointerWidth": 7
             },
             "titles": [
