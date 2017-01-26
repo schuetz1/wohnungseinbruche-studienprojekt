@@ -33,7 +33,7 @@ var chart = AmCharts.makeChart("monate",
             "trendLines": [],
             "graphs": [
                 {
-                    "balloonText": "[[value]]",
+                    "balloonText": "[[value]] Einbrüche",
                     "bullet": "round",
                     "id": "AmGraph-1",
                     "title": "graph 1",

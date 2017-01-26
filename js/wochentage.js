@@ -22,7 +22,7 @@ var chart =   AmCharts.makeChart("wochentage",
             "trendLines": [],
             "graphs": [
                 {
-                    "balloonText": "[[value]]%",
+                    "balloonText": "[[value]]% Einbrüchen passieren [[category]]",
                     "color": "#FFFFFF",
                     "colorField": "color",
                     "columnWidth": 0.39,
@@ -60,7 +60,9 @@ var chart =   AmCharts.makeChart("wochentage",
                 "disableMouseEvents": false,
                 "fillAlpha": 1,
                 "fontSize": 14,
-                "pointerWidth": 7
+                "pointerWidth": 7,
+                "maxWidth": 160
+
             },
             "titles": [
                 {
@@ -71,37 +73,37 @@ var chart =   AmCharts.makeChart("wochentage",
             ],
             "dataProvider": [
                 {
-                    "category": "Mo",
+                    "category": "Montag",
                     "column-1": "15.7",
                     "color": "#FFFFFF"
                 },
                 {
-                    "category": "Di",
+                    "category": "Dienstag",
                     "column-1": "16.0",
                     "color": "#FFFFFF"
                 },
                 {
-                    "category": "Mi",
+                    "category": "Mittwoch",
                     "column-1": "16.2",
                     "color": "#FFFFFF"
                 },
                 {
-                    "category": "Do",
+                    "category": "Donnerstag",
                     "column-1": "17.8",
                     "color": "#FFFFFF"
                 },
                 {
-                    "category": "Fr",
+                    "category": "Freitag",
                     "column-1": "18.4",
                     "color": "#FFFFFF"
                 },
                 {
-                    "category": "Sa",
+                    "category": "Samstag",
                     "column-1": "19.2",
                     "color": "#FFFFFF"
                 },
                 {
-                    "category": "So",
+                    "category": "Sonntag",
                     "color": "#FFFFFF",
                     "column-1": "14.4"
                 }
