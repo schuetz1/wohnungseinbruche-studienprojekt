@@ -110,7 +110,6 @@ $(function() {
             data: [101089137, 103304312, 109278423, 123239513, 138482599, 153712624, 160171173, 166270588, 153600612, 180813166],
             tooltip: {
                 useHTML: true,
-                shared: false,
                 pointFormat:'<b>{point.y}</b>'+' € Schaden'+'<br>',
                 headerFormat: '',
                 backgroundColor:'#fff',
@@ -125,7 +124,6 @@ $(function() {
 
             tooltip: {
                 useHTML: true,
-                shared: false,
                 pointFormat:'<b>{point.y}</b>'+' Einbrüche',
                 headerFormat: '',
                 backgroundColor:'#fff',
