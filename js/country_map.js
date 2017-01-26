@@ -516,7 +516,7 @@ var map = AmCharts.makeChart( "chartdiv", {
     "colorSteps": 5,
     dataProvider: {
         map: "worldHigh",
-        areas: dataSets[0],
+        areas: dataSets[4],
         "zoomLevel": 4,
         "zoomLongitude": 44,
         "zoomLatitude": 42
