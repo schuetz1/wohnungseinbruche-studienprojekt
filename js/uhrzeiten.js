@@ -4,6 +4,8 @@
 var chart = AmCharts.makeChart("uhrzeiten",
     {
         "type": "serial",
+        "startDuration": 2,
+        "startEffect": "easeOutSine",
         "categoryField": "category",
         "startDuration": 1,
         "decimalSeparator": ",",

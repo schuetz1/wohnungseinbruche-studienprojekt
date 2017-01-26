@@ -91,7 +91,7 @@ $(function() {
             name: 'Schaden',
             dataLabels:{
                 numberFormat:'decimal',
-                enabled: true,
+                enabled: false,
                 rotation: -90,
                 color: '#000',
                 align: 'right',
@@ -107,7 +107,7 @@ $(function() {
             color:'#fff',
             borderWidth: 0,
             yAxis: 1,
-            data: [101089, 103304, 109278, 123239, 138482, 153712, 160171, 166270, 153600, 180813],
+            data: [101089137, 103304312, 109278423, 123239513, 138482599, 153712624, 160171173, 166270588, 153600612, 180813166],
             tooltip: {
                 useHTML: true,
                 shared: false,

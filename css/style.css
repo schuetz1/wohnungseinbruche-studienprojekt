@@ -1038,6 +1038,37 @@ a.right.carousel-control{
     padding-top: 20px;
 }
 
+#left-tatzeit .tooltip-inner {
+    width: 220px;
+    height: 100px;
+    padding-top: 20px;
+    color: #000;
+    background-color: #ffffff;
+}
+
+#left-tatzeit span.glyphicon {
+    color: #fff;
+}
+
+#right-tatzeit span.glyphicon {
+    color: #fff;
+}
+
+#right-tatzeit .tooltip-inner {
+    width: 220px;
+    height: 180px;
+    padding-top: 20px;
+    color: #000;
+    background-color: #ffffff;
+}
+
+
+.gesamttaeter{
+    margin-right: 200px;
+    color: white;
+    font-size: 20px;
+}
+
 #left .tooltip-inner {
     width: 220px;
     height: 100px;
@@ -1052,11 +1083,6 @@ a.right.carousel-control{
     width: 220px;
     height: 180px;
     padding-top: 20px;
-}
-.gesamttaeter{
-    margin-right: 200px;
-    color: white;
-    font-size: 20px;
 }
 
 /* Täterfakten  ---------------------------------------------------------------- */
