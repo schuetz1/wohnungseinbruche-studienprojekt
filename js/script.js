@@ -98,6 +98,8 @@ function mailchimpCallback(resp) {
 // Contact Form
 $("#select_year .btn").click(function () {
     $("#select_year .btn").removeClass("active");
+    $(this).addClass("active");
+
 });
 
 $("#altersgruppe-abstand .btn").click(function () {
