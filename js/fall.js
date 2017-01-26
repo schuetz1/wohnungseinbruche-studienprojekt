@@ -61,7 +61,7 @@ $(function() {
             tickInterval:null,
 
             title: {
-                text: 'Höhe der Schadenssumme',
+                text: 'Höhe der Schadenssumme in €',
                 fontFamily:'Lato',
                 fontSize: '14px',
                 style: {
@@ -71,7 +71,7 @@ $(function() {
             }
         }],
         tooltip: {
-            shared: false,
+            shared: true,
             backgroundColor:'#fff',
             borderWidth:0
         },
@@ -111,9 +111,8 @@ $(function() {
             tooltip: {
                 useHTML: true,
                 shared: false,
-                pointFormat:'<b>{point.y}</b>',
+                pointFormat:'<b>{point.y}</b>'+' € Schaden'+'<br>',
                 headerFormat: '',
-                valueSuffix: ' €',
                 backgroundColor:'#fff',
                 borderWidth:0,
             }
@@ -127,9 +126,8 @@ $(function() {
             tooltip: {
                 useHTML: true,
                 shared: false,
-                pointFormat:'<b>{point.y}</b>',
+                pointFormat:'<b>{point.y}</b>'+' Einbrüche',
                 headerFormat: '',
-                valueSuffix: ' Einbrüche',
                 backgroundColor:'#fff',
                 borderWidth:0,
             }
