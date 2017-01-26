@@ -804,14 +804,14 @@ footer p a,footer p a:hover,footer p a:focus {
 
 }
 
-#section-zero{
+#einbruchszahlen{
     height: 660px;
     padding-top: 20px;
     position: relative;
     z-index: 1;
     overflow: hidden;
 }
-#section-one{
+#tatzeiten{
      height: 660px;
     padding-top: 20px;
     position: relative;
@@ -820,6 +820,28 @@ footer p a,footer p a:hover,footer p a:focus {
      background-color: #666666;
  }
 
+#beute{
+    height: 660px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#schadenssumme {
+    height: 660px;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #666666;
+}
+
+#herkunft{
+    height: 660px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
 #section-tageszeit{
     height: 660px;
     padding-top: 20px;
@@ -829,14 +851,7 @@ footer p a,footer p a:hover,footer p a:focus {
     background-color: #666666;
 }
 
-#section-two{
-    height: 660px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
-
-#section-three {
+#taeteralter{
     height: 660px;
     padding-top: 20px;
     position: relative;
@@ -845,47 +860,7 @@ footer p a,footer p a:hover,footer p a:focus {
     background-color: #666666;
 }
 
-#section-four{
-    height: 300px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-}
-#section-five{
-    height: 670px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    background-color: #ffffff;
-}
-#section-six{
-    height: 660px;
-    padding-top: 20px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    background-color: #666666;
-}
-#section-seven {
-    height: 660px;
-    padding-top: 20px;
-
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    background-color: #FFFFFF;
-}
-
-#section-eight{
-    height: 660px;
-    padding-top: 20px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    background-color: #666666;
-}
-
-#section-nine {
+#taeterfakten {
     height: 660px;
     padding-top: 20px;
     position: relative;
