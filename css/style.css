@@ -1076,12 +1076,12 @@ a.right.carousel-control{
 }
 #middle .tooltip-inner {
     width: 220px;
-    height: 100px;
+    height: 75px;
     padding-top: 20px;
 }
 #right .tooltip-inner {
     width: 220px;
-    height: 180px;
+    height: 100px;
     padding-top: 20px;
 }
 
