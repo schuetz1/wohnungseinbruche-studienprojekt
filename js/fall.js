@@ -119,7 +119,7 @@ $(function() {
             }
 
         }, {
-            name: 'Fallzahlen',
+            name: 'Einbrüche',
             type: 'line',
             color:'#4aa6c0',
             data:[37686, 37393, 38002, 41115, 44769, 50368, 54167, 54953, 52794, 62362],
