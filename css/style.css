@@ -1289,3 +1289,8 @@ g.highcharts-legend{
     font-family: Lato;
     font-weight: 100;
 }
+
+.btn.btn-default:focus,
+.btn.btn-default:active{
+    outline-color:#4db8d1;
+}
