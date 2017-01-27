@@ -50,7 +50,10 @@ var chart =   AmCharts.makeChart("wochentage",
                     "showFirstLabel": false,
                     "showLastLabel": false,
                     "tickLength": 0,
-                    "title": ""
+                    "title": "Einbrüche in Prozentangaben",
+                    "titleBold": "false",
+                    "titleColor": "#FFFFFF"
+
                 }
             ],
             "allLabels": [],
